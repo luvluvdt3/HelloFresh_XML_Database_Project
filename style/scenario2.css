@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Raleway');
+
+body {
+    font: normal 14px 'Raleway', Helvetica, Arial, sans-serif;
+    color: #333333;
+}
+
+main {
+    margin: 0;
+}
+
+main::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.overlay {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.overlay:not(:target) {
+    display: none;
+}
+
+.card-list {
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.card-list li {
+    margin: 0 5px;
+}
+
+
+.card-list li button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    font: normal 20px 'Josefin Slab', serif;
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+
+.card-list li button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.meal_card{
+    cursor: pointer;
+    border: 2px solid #000000;
+}
+
+.meal_card_headline{
+    text-align: center;
+    margin-top: -5px;
+}
+
+ul.card-list,
+ul.card-list ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+ul.card-list {
+    text-align: center;
+}
+
+ul.card-list a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul.card-list > li h1 {
+    font: normal 24px 'Josefin Slab', serif;
+    padding: .25em .5em;
+    margin: 0;
+}
+
+ul.card-list li {
+    display: inline-block;
+    margin: 1em;
+}
+
+ul.card-list > li {
+    vertical-align: top;
+    width: 400px;
+    padding: 0;
+    margin: 1.7em;
+    text-align: left;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+ul.card-list section {
+    height: 200px;
+}
+
+ul.card-list .content_card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0 1em;
+    top: 0;
+    text-align: initial;
+    overflow-y: auto;
+    color: #ffffff;
+    background: rgba(0, 0, 0, .8);
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    transition: transform .5s ease;
+}
+
+ul.card-list > li:hover .content_card {
+    position: absolute;
+    padding: 0 1em;
+    transform: translateY(0);
+}
+
+ul.card-list .content_card a.view-recipe {
+    font-weight: 700;
+    width: 90%;
+    padding: 10px;
+    margin: 1em auto;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    display: block;
+    transition: all 100ms ease-out;
+}
+
+ul.card-list .content_card a.view-recipe:hover {
+    color: #000000;
+    background: #ffffff;
+}
+
+ul.card-list > li section {
+    position: relative;
+    overflow: hidden;
+}
+
+ul.card-list img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ul.card-list .content_card p {
+    line-height: 1.3em;
+    padding: 0;
+    margin: .7em 0;
+}
+
+.tag {
+    height: 20px;
+    width: 20px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px;
+}
+
+.tag_line{
+    line-height: 1.5;
+}
+
+.card-list.meal-ref-list{
+    margin-left: 10px;
+}
+
+.meal-info{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.categories{
+    margin-top: -5px;
+}
+
+.total-time {
+    margin-right: auto;
+}
+
+.favorite {
+    margin-left: 10px;
+}
+
+.favorite_num{
+    font-size: 20px;
+    position: relative;
+    top: -5px;
+    right: 2px;
+}
+
+.price_plus{
+    color: #a62424;
+}

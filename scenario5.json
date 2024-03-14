@@ -1,0 +1,3618 @@
+{
+    "$schema": "./hello_fresh_schema.json",
+    "meals": [
+        {
+            "id": "_65afe675a33a91ae6a3f7dd7",
+            "name": "Pork Schnitzel",
+            "description": "Coat pork in breadcrumbs and immediately become a mealtime MVP. Crispy pork is pretty much perfect in any form, but this isn’t your run-of-the-mill schnitzel. To amp up flavor, we’ve added lemon zest and garlic powder to our breadcrumb mixture, then drizzled the crispy pork chops with our new favorite condiment: creamy honey mustard sauce. Speaking of, we’re serving up sides of roasted potatoes and carrots for extra dipping, but if you broke out the spoon to scrape up leftover sauce, we wouldn’t judge.",
+            "headline": "with Roasted Veggies & a Creamy Mustard Sauce",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/64107fa739e88291d401fbe7-70da8910.jpg",
+            "recipe": {
+                "total_time": {
+                    "value": 35,
+                    "units": "minutes"
+                },
+                "prep_time": {
+                    "value": 10,
+                    "units": "minutes"
+                },
+                "difficulty": "medium",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 12,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Carrots",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550dbfdf8b25e56468b456d-28d1540f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 12,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Potatoes",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/6283a92d8766133d500324c1-28662181.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Lemon",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a302ffd2cb9324b8b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Mayonnaise",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a2f494dab71636c8b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Honey",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566f5224dab7138088b456c-00e9e7f0.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Dijon Mustard",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/5550e0454dab718e128b456f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Fry Seasoning",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/590b959ad0d6bd0f5b2a9922-9e3f8508.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.5,
+                            "units": "cup"
+                        },
+                        "ingredient": {
+                            "name": "Panko Breadcrumbs",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a39a04dab71626c8b456b-ad74bb9c.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Garlic Powder",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/55ef01fbf8b25eba7e8b4567-446bc04f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1.5,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Sour Cream",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550e1064dab71893e8b4569-dc52e70d.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 10,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Pork Chops",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a3a04fd2cb9324b8b456e-d68749c2.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cooking Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/606db3ad4f75e662fe596b59-e437d9e4.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Adjust rack to top position (top and middle positions for 4 servings) and preheat oven to 425 degrees. Wash and dry produce"
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/64107fa739e88291d401fbe7/step-e3d7f9cf.jpg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": " carrots on one side of a baking sheet with a drizzle of oil, salt, and pepper. Toss potatoes on empty side with a drizzle of oil, Fry Seasoning, salt, and pepper. (For 4 servings, use 2 sheets; roast potatoes on top rack and carrots on middle rack.)"
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/64107fa739e88291d401fbe7/step-b2b13de2.jpg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "Meanwhile, place panko, lemon zest, and garlic powder in a large zip-close bag. Season with salt (we used 1 tsp; 2 tsp for 4 servings) and pepper."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/64107fa739e88291d401fbe7/step-093d2a21.jpg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "Pat pork dry with paper towels.",
+                                "tip": "You may need to move pork chops around in bag, pressing with your hands, to spread out panko and make it stick."
+                                
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/64107fa739e88291d401fbe7/step-bd213c48.jpg"
+                    },
+                    {
+                        "index": 5,
+                        "instructions": [
+                            {
+                                "guide": "Heat a ¼-inch layer of oil in a large, heavy-bottomed pan over medium-high heat. Once oil is hot enough that a pinch of panko sizzles when added to pan, add pork.",
+                                "tip": "Depending on the size of your pan, you may need to work in batches."
+                                
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/64107fa739e88291d401fbe7/step-bf3b4293.jpg"
+                    },
+                    {
+                        "index": 6,
+                        "instructions": [
+                            {
+                                "guide": "Divide pork, potatoes, and carrots between plates. Serve with lemon wedges on the side and creamy mustard sauce for dipping or drizzling."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/64107fa739e88291d401fbe7/step-19fa6db3.jpg"
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_zester",
+                "_peeler",
+                "_small_bowl",
+                "_baking_sheet",
+                "_plastic_bag",
+                "_medium_bowl",
+                "_paper_towel",
+                "_large_pan"
+            ],
+            "categories": [
+                "_hall_of_fame_category",
+                "_latin_american_category",
+                "_meat_veggie_category"
+            ],
+            "nutritional_values": {
+                "calories": 860,
+                "fat": 45,
+                "saturated fat": 10,
+                "carbohydrate": 77,
+                "sugar": 22,
+                "dietary fiber": 9,
+                "protein": 34,
+                "cholesterol": 130,
+                "sodium": 1490
+            }
+        },
+        {
+            "id": "_65b15441f8a95d5728992751",
+            "name": "Soy-Glazed Hoisin Meatloaves",
+            "description": "In our opinion, a humble meatloaf is one of the most underrated dishes—it’s so comforting, but can also easily be dressed up with any spices and sauces we’re craving. In this sweet, savory, and lightly spicy riff on the classic, we combine ground beef with scallions and hoisin sauce, shape it into loaves, then bake with a sweet soy glaze to browned, juicy perfection. The meatloaves are served with roasted scallion green beans, aromatic steamed jasmine rice, and spicy Sriracha mayo for drizzling. It’s a weeknight-friendly dinner idea we meat-LOVE.",
+            "headline": "plus Scallion Asparagus, Rice & Sriracha Mayo",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/64ad70a108c61453c499ab23-13599296.jpeg",
+            "recipe": {
+                "total_time": {
+                    "value": 35,
+                    "units": "minutes"
+                },
+                "prep_time": {
+                    "value": 5,
+                    "units": "minutes"
+                },
+                "difficulty": "medium",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 6,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Green Beans",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/5553931dfd2cb9db798b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Scallions",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a301f4dab71626c8b4569-015d8d9b.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 10,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Ground Beef",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a35754dab71d76f8b4568-701b4bc8.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.25,
+                            "units": "cup"
+                        },
+                        "ingredient": {
+                            "name": "Panko Breadcrumbs",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a39a04dab71626c8b456b-ad74bb9c.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Hoisin Sauce",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/55561127fd2cb9891f8b4568.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.5,
+                            "units": "cup"
+                        },
+                        "ingredient": {
+                            "name": "Jasmine Rice",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/55b7845df8b25ed9088b4567.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 4,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Sweet Soy Glaze",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5e04ea2c1413cb766f30181c-6c56bd3d.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Mayonnaise",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a2f494dab71636c8b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Sriracha",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550dc23f8b25e4d4c8b4570-c617af17.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 6,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Asparagus",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a3c0a4dab71636c8b456c.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cooking Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/606db3ad4f75e662fe596b59-e437d9e4.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Adjust rack to top position (top and middle positions for 4 servings) and preheat oven to 425 degrees. Wash and dry produce."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-64ad70a108c61453c499ab23-c9fb8815.jpeg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": "In a small pot, combine rice, ¾ cup water, and a pinch of salt (use a medium pot and 1½ cups water for 4 servings). Bring to a boil, then cover and reduce heat to low. Cook until rice is tender, 15-18 minutes."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65b15441f8a95d5728992751-61296002.jpeg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "While rice cooks, in a large bowl, combine beef*, scallion whites, hoisin, and panko; season with salt (we used ½ tsp; 1 tsp for 4 servings) and pepper."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65b15441f8a95d5728992751-361372a1.jpeg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "Once meatloaves have roasted for 5 minutes, carefully remove baking sheet from oven. Brush tops of meatloaves with sweet soy glaze."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-64ad70a108c61453c499ab23-6bae17ea.jpeg"
+                    },
+                    {
+                        "index": 5,
+                        "instructions": [
+                            {
+                                "guide": "Meanwhile, in a small bowl, combine mayonnaise and as much Sriracha as you like. Add water 1 tsp at a time until you reach a drizzling consistency."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-64ad70a108c61453c499ab23-f887931f.jpeg"
+                    },
+                    {
+                        "index": 6,
+                        "instructions": [
+                            {
+                                "guide": "Fluff rice with a fork."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-64ad70a108c61453c499ab23-3e1aad69.jpeg"
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_small_pot",
+                "_large_bowl",
+                "_baking_sheet",
+                "_small_bowl"
+            ],
+            "categories": [
+                "_meatball_category",
+                "_asian_category",
+                "_chinese_category",
+                "_meat_veggie_category",
+                "_family_friendly_category"
+            ],
+            "nutritional_values": {
+                "calories": 860,
+                "fat": 46,
+                "saturated fat": 13,
+                "carbohydrate": 74,
+                "sugar": 26,
+                "dietary fiber": 2,
+                "protein": 31,
+                "cholesterol": 130,
+                "sodium": 1550
+            }
+        },
+        {
+            "id": "_65b1548ea33a91ae6a3f8df2",
+            "name": "Shrimp Pasta Primavera",
+            "description": "Craving a rich pasta dish but also a bounty of veggies? Thanks to this recipe, you don’t have to choose between the two. Here, you’ll find al dente penne pasta, green peas, and roasted bell pepper and zucchini, all tossed in a creamy, dreamy sauce that’s brightened with lemon juice and made aromatic with Italian herbs. Each plate is showered with grated Parmesan for an im-pasta-bly delicious dinner.",
+            "headline": "with Lemon Sauce, Bell Pepper, Zucchini & Peas",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/63fe379d1577033fb2010fc3-5354cfcd.jpg",
+            "recipe": {
+                "total_time": {
+                    "value": 30,
+                    "units": "minutes"
+                },
+                "prep_time": {
+                    "value": 10,
+                    "units": "minutes"
+                },
+                "difficulty": "medium",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Bell Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredients/596631bfc9fd08350247b2f2-aa0ce52c.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Zucchini",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5553981df8b25e5d0c8b456a-9ada5be3.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Scallions",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a301f4dab71626c8b4569-015d8d9b.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Lemon",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a302ffd2cb9324b8b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 6,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Penne Pasta",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566d1a1fd2cb95f7f8b4569-c243e2d8.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Tuscan Heat Spice",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/565f7b22fd2cb940128b4567-31005728.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 4,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Cream Sauce Base",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5d83b5be549f805d015f41d0-8d42fa72.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Crème Fraîche",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5dc1e5cf9f0d343f27790546-a4ab7571.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Veggie Stock Concentrate",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a3a9e4dab71716c8b456b-7d14f113.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 4,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Peas",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a3e0b4dab71626c8b456c-d14eabd8.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 3,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Parmesan Cheese",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550e133fd2cb9a7168b456b-fb858db7.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 10,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Shrimp",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550dbd8f8b25e4d4c8b456f-100c21d5.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cooking Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/606db3ad4f75e662fe596b59-e437d9e4.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Olive Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566cdf2f8b25e0d298b4568-c4fea450.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Butter",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/5566e4d74dab71e3078b4569.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Adjust rack to top position and preheat oven to 450 degrees. Bring a large pot of salted water to a boil. Wash and dry produce."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/63fe379d1577033fb2010fc3/step-8c669749.jpg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": "Toss bell pepper and zucchini on a baking sheet with a drizzle of oil, salt, and pepper. Roast on top rack until tender and lightly charred, 15-18 minutes."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/63fe379d1577033fb2010fc3/step-56190ef0.jpg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "Once water is boiling, add penne to pot. Cook, stirring occasionally, until al dente, 9-11 minutes"
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/63fe379d1577033fb2010fc3/step-521bf8fd.jpg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "Heat a drizzle of olive oil in pot used for pasta over medium heat. Add scallion whites and 1 tsp Tuscan Heat Spice (2 tsp for 4 servings); cook, stirring, 1 minute. (Be sure to measure the Tuscan Heat Spice; we sent more.)"
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/63fe379d1577033fb2010fc3/step-2958ce50.jpg"
+                    },
+                    {
+                        "index": 5,
+                        "instructions": [
+                            {
+                                "guide": "Add drained penne, peas, half the Parmesan (save the rest for serving), half the lemon zest, 1 TBSP butter (2 TBSP for 4 servings), and a big squeeze of lemon juice to pot with sauce. Cook, stirring, until butter has melted and penne is coated in a creamy sauce.",
+                                "tip": " If needed, stir in more reserved pasta cooking water a splash at a time."
+                                
+                            }
+                        ],
+                        "image": ""
+                    },
+                    {
+                        "index": 6,
+                        "instructions": [
+                            {
+                                "guide": "Divide pasta between plates or shallow bowls. Top with scallion greens and remaining Parmesan. Serve with any remaining lemon wedges on the side."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/63fe379d1577033fb2010fc3/step-1e339411.jpg"
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_large_pot",
+                "_zester",
+                "_baking_sheet",
+                "_paper_towel",
+                "_large_pan",
+                "_strainer",
+                "_whisk"
+            ],
+            "categories": [
+                "_pastas_category",
+                "_italian_category",
+                "_kid_friendly_category",
+                "_pescatarian_category"
+            ],
+            "nutritional_values": {
+                "calories": 880,
+                "fat": 36,
+                "saturated fat": 17,
+                "carbohydrate": 93,
+                "sugar": 14,
+                "dietary fiber": 10,
+                "protein": 40,
+                "cholesterol": 290,
+                "sodium": 1420
+            }
+        },
+        {
+            "id": "_65afe255a33a91ae6a3f7d63",
+            "name": "Crispy Parmesan Chicken",
+            "description": "Consider plain chicken a thing of the past. In this recipe, the cutlets get gussied up thanks to a gorgeous golden breadcrumb topping with paprika and Parmesan cheese. You’ll roast them alongside the lemony carrots on the same baking sheet—once they’re in the oven, the only thing left to do is boil the pearl couscous and toss it with the garlicky butter. Simple, satisfying, and supercharged with flavor—what more could you ask for?",
+            "headline": "with Garlic Scallion Couscous & Lemony Roasted Carrots",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/65afe255a33a91ae6a3f7d63-d9323643.jpeg",
+            "recipe": {
+                "total_time": {
+                    "value": 40,
+                    "units": "minutes"
+                },
+                "prep_time": {
+                    "value": 10,
+                    "units": "minutes"
+                },
+                "difficulty": "medium",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 12,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Carrots",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550dbfdf8b25e56468b456d-28d1540f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Scallions",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a301f4dab71626c8b4569-015d8d9b.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "clove"
+                        },
+                        "ingredient": {
+                            "name": "Garlic",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a363df8b25e1d268b456b-15867d90.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Lemon",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a302ffd2cb9324b8b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.25,
+                            "units": "cup"
+                        },
+                        "ingredient": {
+                            "name": "Panko Breadcrumbs",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a39a04dab71626c8b456b-ad74bb9c.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 3,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Parmesan Cheese",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550e133fd2cb9a7168b456b-fb858db7.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Paprika",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5696c0824dab71d3408b4567-38d57946.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Chili Powder",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/55561401fd2cb9531f8b456a.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 10,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Chicken Cutlets",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/59c2b202c288007f56514711-21c62ba7.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1.5,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Sour Cream",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550e1064dab71893e8b4569-dc52e70d.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2.5,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Israeli Couscous",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/565dc53979a23c31668b4567-fe08fd79.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cooking Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/606db3ad4f75e662fe596b59-e437d9e4.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Butter",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/5566e4d74dab71e3078b4569.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Adjust rack to middle position (middle and top positions for 4 servings) and preheat oven to 425 degrees. Bring a medium pot of salted water to a boil. Wash and dry produce."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe255a33a91ae6a3f7d63-5994c905.jpeg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": "In a small bowl, combine panko, Parmesan, paprika, a large drizzle of olive oil, and a pinch of chili powder, salt, and pepper."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe255a33a91ae6a3f7d63-212e7e66.jpeg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "Toss carrots on opposite side of sheet from chicken with a large drizzle of olive oil, salt, and pepper. (For 4 servings, toss carrots on a second sheet.)",
+                                "tip": " If carrots are done before chicken, remove from sheet and continue roasting chicken."
+                                
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe255a33a91ae6a3f7d63-6ad0b500.jpeg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "While chicken and carrots roast, add couscous to pot with boiling water. Cook until tender, 6-8 minutes. Drain thoroughly."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/6447d0dce462b535dd06af22/step-57992b82.jpg"
+                    },
+                    {
+                        "index": 5,
+                        "instructions": [
+                            {
+                                "guide": "Once carrots are done roasting, carefully toss with lemon zest and a squeeze of lemon juice to taste."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe255a33a91ae6a3f7d63-82f40cd8.jpeg"
+                    },
+                    {
+                        "index": 6,
+                        "instructions": [
+                            {
+                                "guide": "Divide chicken, carrots, and couscous between plates. Garnish chicken with scallion greens. Serve with any remaining lemon wedges on the side."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe255a33a91ae6a3f7d63-42427349.jpeg"
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_medium_pot",
+                "_zester",
+                "_peeler",
+                "_paper_towel",
+                "_small_bowl",
+                "_baking_sheet",
+                "_strainer"
+            ],
+            "categories": [
+                "_hall_of_fame_category",
+                "_french_category",
+                "_meat_veggie_category",
+                "_fit_wholesome_category"
+            ],
+            "nutritional_values": {
+                "calories": 690,
+                "fat": 32,
+                "saturated fat": 13,
+                "carbohydrate": 59,
+                "sugar": 12,
+                "dietary fiber": 8,
+                "protein": 43,
+                "cholesterol": 155,
+                "sodium": 410
+            }
+        },
+        {
+            "id": "_65afe2cea33a91ae6a3f7d6f",
+            "name": "Sweet Chili Pork & Cabbage Stir-Fry",
+            "description": "Falling into a stir-fry rut with the same veggie + sauce combo each week? We’ve got you covered. This version features garlicky ground pork, which is simmered in a sweet, savory, and spicy blend of soy, ponzu, Thai chili sauce, and rice wine vinegar. It’s tossed with tender sautéed cabbage, then spooned over jasmine rice and garnished with crispy fried onions. The best part? It takes just 20 minutes from start to finish—now that’s what we call a winning dinner.",
+            "headline": "with Crispy Fried Onions",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/6407447ed6c3cf202307df36-9b023437.jpg",
+            "recipe": {
+                "total_time": {
+                    "value": 20,
+                    "units": "minutes"
+                },
+                "prep_time": {
+                    "value": 5,
+                    "units": "minutes"
+                },
+                "difficulty": "easy",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.5,
+                            "units": "cup"
+                        },
+                        "ingredient": {
+                            "name": "Jasmine Rice",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/55b7845df8b25ed9088b4567.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Scallions",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a301f4dab71626c8b4569-015d8d9b.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Sweet Thai Chili Sauce",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/59d4ee992c3e087daf17c902-8f9ba67b.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 12,
+                            "units": "milliliters"
+                        },
+                        "ingredient": {
+                            "name": "Ponzu Sauce",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5dd5b05d96dc662fd82c320a-51a458d8.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 4,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Sweet Soy Glaze",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5e04ea2c1413cb766f30181c-6c56bd3d.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 5,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Rice Wine Vinegar",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5c3f996ee3f33960cc6ec232-f1d55641.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 10,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Ground Pork",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/55661f8afd2cb9046d8b456a.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Garlic Powder",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/55ef01fbf8b25eba7e8b4567-446bc04f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 4,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Red Cabbage and Carrot Mix",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/6092d07a42b92c36740fa934-85f12045.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Crispy Fried Onions",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5d893672d5991d6a071db150-5244a5ff.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Sugar",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566e2014dab71e3078b4568-a563f2a0.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cooking Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/606db3ad4f75e662fe596b59-e437d9e4.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Butter",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/5566e4d74dab71e3078b4569.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Wash and dry produce."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/6407447ed6c3cf202307df36/step-4d6282da.jpg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": "While rice cooks, trim and thinly slice scallions, separating whites from greens.",
+                                "tip": "Be sure to measure the sweet soy glaze—we sent more."
+                                
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/6407447ed6c3cf202307df36/step-601e68cd.jpg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "Heat a large drizzle of oil in a large pan over medium-high heat. Add scallion whites and cook until just softened, 1 minute."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/6407447ed6c3cf202307df36/step-651e6c44.jpg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "Stir red cabbage and carrot mix into pan with pork; cook until just tender, 2-3 minutes. Taste and season with salt and pepper."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/6407447ed6c3cf202307df36/step-5b7b0904.jpg"
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_small_pot",
+                "_small_bowl",
+                "_large_pan"
+            ],
+            "categories": [
+                "_quick_meals_for_busy_nights_category",
+                "_asian_category",
+                "_korean_category",
+                "_stir-fry_category",
+                "_meat_veggie_category",
+                "_quick_easy_category"
+            ],
+            "nutritional_values": {
+                "calories": 810,
+                "fat": 41,
+                "saturated fat": 15,
+                "carbohydrate": 72,
+                "sugar": 26,
+                "dietary fiber": 1,
+                "protein": 28,
+                "cholesterol": 110,
+                "sodium": 1320
+            }
+        },
+        {
+            "id": "_65afe325a33a91ae6a3f7d7a",
+            "name": "Sweet & Smoky Pork Filet",
+            "description": "If you’re craving something that’s good and hearty, this recipe has got you covered. Pork filet is rubbed with cinnamon and smoked paprika, which brings a layer of warm aromatics to the meat. It’s then roasted and drizzled in a cherry jam sauce that adds sweetness to all that savory. The mashed potatoes on the side stay creamy and classic, but there are also tender roasted carrots with a sprinkle of chili flakes for a pop of heat.",
+            "headline": "with Chili Roasted Carrots, Mashed Potatoes & Cherry Sauce",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/63fe19cac815bf3b36091982-b84b8390.jpg",
+            "recipe": {
+                "total_time": {
+                    "value": 40,
+                    "units": "minutes"
+                },
+                "prep_time": {
+                    "value": 10,
+                    "units": "minutes"
+                },
+                "difficulty": "medium",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 5,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "White Wine Vinegar",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/5550dc7bfd2cb974658b456a.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 12,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Carrots",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550dbfdf8b25e56468b456d-28d1540f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 12,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Potatoes",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/6283a92d8766133d500324c1-28662181.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 10,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Pork Filet",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64b67452a7c1f8a1e13bae3c-caf6fdaa.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Chili Flakes",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a35f4fd2cb9cf488b4569-2f43700f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Cherry Jam",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/58012ab5bfba3d61a60318e3-cba2e1ed.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1.5,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Sour Cream",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550e1064dab71893e8b4569-dc52e70d.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cinnamon",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a35e54dab71636c8b456b.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Smoked Paprika",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566cdb2fd2cb9537f8b4567-21de288b.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Olive Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566cdf2f8b25e0d298b4568-c4fea450.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cooking Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/606db3ad4f75e662fe596b59-e437d9e4.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Butter",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/5566e4d74dab71e3078b4569.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Adjust rack to middle position (top and middle positions for 4 servings) and preheat oven to 450 degrees. Wash and dry produce."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/63fe19cac815bf3b36091982/step-35e8ef3a.jpg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": "Dice potatoes into ½-inch pieces; place in a large pot with enough salted water to cover by 2 inches. Bring to a boil and cook until tender, 15-20 minutes."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/63fe19cac815bf3b36091982/step-1affbad2.jpg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "Meanwhile, toss carrots on one side of a baking sheet with a drizzle of oil, salt, and pepper. (For 4 servings, spread across entire sheet.)"
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe325a33a91ae6a3f7d7a-5c8d7030.jpeg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "Pat pork dry with paper towels. Rub with a large drizzle of olive oil; season generously all over with salt and pepper."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe325a33a91ae6a3f7d7a-1142f33d.jpeg"
+                    },
+                    {
+                        "index": 5,
+                        "instructions": [
+                            {
+                                "guide": "While pork roasts, add jam and 1 tsp vinegar (1½ tsp for 4 servings) to bowl with reserved spice mixture; stir to combine. (Be sure to measure the vinegar—we sent more!) Microwave until warm, 30-60 seconds."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe325a33a91ae6a3f7d7a-596c381c.jpeg"
+                    },
+                    {
+                        "index": 6,
+                        "instructions": [
+                            {
+                                "guide": "Mash drained potatoes with sour cream and 1 TBSP butter (2 TBSP for 4 servings) until smooth and creamy, adding splashes of reserved potato cooking liquid as needed."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe325a33a91ae6a3f7d7a-fd14a931.jpeg"
+                    },
+                    {
+                        "index": 7,
+                        "instructions": [
+                            {
+                                "guide": "Slice pork crosswise."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe325a33a91ae6a3f7d7a-390a9a57.jpeg"
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_peeler",
+                "_large_pot",
+                "_strainer",
+                "_baking_sheet",
+                "_small_bowl",
+                "_paper_towel"
+            ],
+            "categories": [
+                "_kid_friendly_category",
+                "_middle_eastern_category",
+                "_meat_veggie_category",
+                "_family_friendly_category",
+                "_fit_wholesome_category"
+            ],
+            "nutritional_values": {
+                "calories": 650,
+                "fat": 28,
+                "saturated fat": 12,
+                "carbohydrate": 67,
+                "sugar": 32,
+                "dietary fiber": 7,
+                "protein": 31,
+                "cholesterol": 125,
+                "sodium": 510
+            }
+        },
+        {
+            "id": "_65afe348a33a91ae6a3f7d80",
+            "name": "Tex-Mex Pork Enchilada Bowls",
+            "description": "Rice bowls are way beyond “having a moment” and have officially transformed into a dinnertime staple. And why not? They’re hearty, flavorful, and so versatile. This version’s got bold ’n’ saucy pork served over a bed of fluffy lime rice, topped with fresh salsa, Monterey Jack cheese, and Southwest-spiced crema. Yep, this bodacious bowl is sure to satisfy.",
+            "headline": "with Tomato Salsa & Spiced Crema",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/62559e67a7a4871ff7170dc6-4fcdf7a4.jpg",
+            "recipe": {
+                "total_time": {
+                    "value": 35,
+                    "units": "minutes"
+                },
+                "prep_time": {
+                    "value": 10,
+                    "units": "minutes"
+                },
+                "difficulty": "medium",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Tomato",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/556728a04dab71a90d8b456a-a580bdf4.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Onion",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64b67452a7c1f8a1e13bae64-7c95cf4b.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Lime",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a3c9efd2cb9ba4f8b456c-f32287bd.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Long Green Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5b4fae69ae08b5571751ba62-bbadee38.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.5,
+                            "units": "cup"
+                        },
+                        "ingredient": {
+                            "name": "Jasmine Rice",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/55b7845df8b25ed9088b4567.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 3,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Crema",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/632a94d32d7e43026a016c2e-32007cbc.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Southwest Spice Blend",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/55a55c56fd2cb9f27c8b4567-1fe316e4.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 10,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Ground Pork",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/55661f8afd2cb9046d8b456a.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Tex-Mex Paste",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5de9275939942c47890bf42d-5985bc26.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.25,
+                            "units": "cup"
+                        },
+                        "ingredient": {
+                            "name": "Monterey Jack Cheese",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/55c109e74dab7112098b4567-4c6e0a43.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cooking Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/606db3ad4f75e662fe596b59-e437d9e4.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Butter",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/5566e4d74dab71e3078b4569.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Wash and dry produce."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/62559e67a7a4871ff7170dc6/step-9bb31522.jpg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": "In a small pot, combine rice, ¾ cup water (1½ cups for 4 servings), and a pinch of salt. Bring to a boil, then cover and reduce to a low simmer. Cook until rice is tender, 15-18 minutes. Keep covered off heat until ready to serve."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/62559e67a7a4871ff7170dc6/step-ba6e2ea1.jpg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "While rice cooks, in a small bowl, combine tomato, minced onion, and juice from half the lime. Season with salt and pepper."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/62559e67a7a4871ff7170dc6/step-5c8862ea.jpg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "Heat a drizzle of oil in a large pan over medium-high heat. Add green pepper and cook until slightly softened, 2-3 minutes."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/62559e67a7a4871ff7170dc6/step-48aabf32.jpg"
+                    },
+                    {
+                        "index": 5,
+                        "instructions": [
+                            {
+                                "guide": "Heat another drizzle of oil in pan used for veggies over medium-high heat. Add pork and cook, breaking up meat into pieces, until browned and cooked through, 4-6 minutes.",
+                                "tip": "If there’s excess grease in your pan, carefully pour it out."
+                                
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/62559e67a7a4871ff7170dc6/step-7943c0e4.jpg"
+                    },
+                    {
+                        "index": 6,
+                        "instructions": [
+                            {
+                                "guide": "Fluff rice with a fork; stir in lime zest and season with salt and pepper."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/62559e67a7a4871ff7170dc6/step-6424ba18.jpg"
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_zester",
+                "_small_pot",
+                "_small_bowl",
+                "_large_pan"
+            ],
+            "categories": [
+                "_latin_american_category",
+                "_hall_of_fame_category",
+                "_quick_meals_for_busy_nights_category",
+                "_bowl_category",
+                "_meat_veggie_category",
+                "_family_friendly_category",
+                "_quick_easy_category"
+            ],
+            "nutritional_values": {
+                "calories": 770,
+                "fat": 43,
+                "saturated fat": 16,
+                "carbohydrate": 61,
+                "sugar": 10,
+                "dietary fiber": 5,
+                "protein": 32,
+                "cholesterol": 130,
+                "sodium": 1160
+            }
+        },
+        {
+            "id": "_65afe3c8a33a91ae6a3f7d93",
+            "name": "Zucchini & Tomato Flatbreads",
+            "description": "If this recipe could talk, it would say “I’m so fancy!” Toasty flatbreads are gussied up with fluffy lemony ricotta cheese, and bites of tomato and zucchini bursting with juicy goodness. Oh, and we have to talk about the bling (aka garnish) on top: parsley, chili flakes, and honey add savory-sweet contrast that makes each bite light up. You’ve just hit dinnertime gold.",
+            "headline": "Elevated Dinners, Impressively Easy",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/642af06e705ba288cf032418-efcabfd4.jpg",
+            "recipe": {
+                "total_time": {
+                    "value": 25,
+                    "units": "minutes"
+                },
+                "prep_time": {
+                    "value": 10,
+                    "units": "minutes"
+                },
+                "difficulty": "easy",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Zucchini",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5553981df8b25e5d0c8b456a-9ada5be3.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 4,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Grape Tomatoes",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a385afd2cb9324b8b456c-344873b8.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "clove"
+                        },
+                        "ingredient": {
+                            "name": "Garlic",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a363df8b25e1d268b456b-15867d90.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Lemon",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a302ffd2cb9324b8b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 4,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Ricotta Cheese",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/608866defc28da123053b5db-51f21e8f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Flatbreads",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/638788c53cd92d975d026527-41e3a696.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.25,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Parsley",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/5553930af8b25e5e0c8b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Chili Flakes",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a35f4fd2cb9cf488b4569-2f43700f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Honey",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566f5224dab7138088b456c-00e9e7f0.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cooking Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/606db3ad4f75e662fe596b59-e437d9e4.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Olive Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566cdf2f8b25e0d298b4568-c4fea450.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Place a lightly oiled baking sheet on top rack (for 4 servings, use 2 lightly oiled baking sheets on top and middle racks) and preheat oven to 450 degrees. Wash and dry produce."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/642af06e705ba288cf032418/step-f50bb1a2.jpg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": "Heat a drizzle of olive oil in a large pan over medium-high heat. Add zucchini and cook, stirring, until lightly browned and softened, 5-6 minutes. Season with salt and pepper."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/642af06e705ba288cf032418/step-7beacdac.jpg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "While zucchini cooks, in a small bowl, combine tomatoes, garlic, and a drizzle of olive oil. Season with salt and pepper."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/642af06e705ba288cf032418/step-1a9c15f9.jpg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "In a second small bowl, combine ricotta, half the lemon zest, ½ tsp olive oil (1 tsp for 4 servings), and lemon juice to taste. Season with salt and pepper."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/642af06e705ba288cf032418/step-9efde777.jpg"
+                    },
+                    {
+                        "index": 5,
+                        "instructions": [
+                            {
+                                "guide": "Carefully place flatbreads on prepared sheet (divide between both prepared sheets for 4 servings). Evenly spread flatbreads with lemon ricotta. Top with zucchini and tomatoes, cut sides up."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/642af06e705ba288cf032418/step-2b1e3674.jpg"
+                    },
+                    {
+                        "index": 6,
+                        "instructions": [
+                            {
+                                "guide": "Meanwhile, pick parsley leaves from stems; roughly chop leaves. Once flatbreads are done, garnish with parsley, remaining lemon zest, and chili flakes to taste. Drizzle with honey, then slice into pieces."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/642af06e705ba288cf032418/step-1c74baa9.jpg"
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_baking_sheet",
+                "_zester",
+                "_large_pan",
+                "_small_bowl"
+            ],
+            "categories": [
+                "_quick_meals_for_busy_nights_category",
+                "_flatbread_category",
+                "_mediterranean_category",
+                "_veggie_category",
+                "_quick_easy_category",
+                "_fit_wholesome_category"
+            ],
+            "nutritional_values": {
+                "calories": 500,
+                "fat": 21,
+                "saturated fat": 7,
+                "carbohydrate": 69,
+                "sugar": 18,
+                "dietary fiber": 5,
+                "protein": 14,
+                "cholesterol": 35,
+                "sodium": 650
+            }
+        },
+        {
+            "id": "_65afe3ebf8a95d5728991bb5",
+            "name": "Crispy Chickpea Tabbouleh Bowls",
+            "description": "We’re big fans of the ubiquitous “power bowl,” but we have to admit: This one’s extra special. It’s a one-bowl Middle Eastern–style feast that’s positively bursting with flavor. The base is a lemony bulgur salad with cucumber, tomato, scallion whites, and dill. On top, there’s crispy, harissa-spiced chickpeas, bell pepper, and a drizzle of creamy feta dressing. It doesn’t get much better than this!",
+            "headline": "Elevated Dinners, Impressively Easy",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/63fe2bbbe0f70881df0a8a93-6330222e.jpg",
+            "recipe": {
+                "total_time": {
+                    "value": 30,
+                    "units": "minutes"
+                },
+                "prep_time": {
+                    "value": 10,
+                    "units": "minutes"
+                },
+                "difficulty": "medium",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Chickpeas",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a4024f8b25e1d268b4570.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Bell Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredients/596631bfc9fd08350247b2f2-aa0ce52c.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Harissa Powder",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/558c70ee4dab71b95f8b4568-00a8980a.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.5,
+                            "units": "cup"
+                        },
+                        "ingredient": {
+                            "name": "Bulgur Wheat",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/556707cbf8b25e832a8b4567.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Mini Cucumber",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/62a9df0098abc311ef0ecefc-ad024a0f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Tomato",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/556728a04dab71a90d8b456a-a580bdf4.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Scallions",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a301f4dab71626c8b4569-015d8d9b.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.25,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Dill",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a4010f8b25e1c268b456b-f9e2134b.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Lemon",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a302ffd2cb9324b8b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 3,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Sour Cream",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550e1064dab71893e8b4569-dc52e70d.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.5,
+                            "units": "cup"
+                        },
+                        "ingredient": {
+                            "name": "Feta Cheese",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550e0374dab71893e8b4568-860b1f11.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Olive Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566cdf2f8b25e0d298b4568-c4fea450.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Adjust rack to top position (top and middle positions for 4 servings) and preheat oven to 425 degrees. Wash and dry produce"
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/63fe2bbbe0f70881df0a8a93/step-8e115898.jpg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": "Toss bell pepper and chickpeas on a baking sheet with a large drizzle of olive oil, 1 tsp harissa powder (2 tsp for 4 servings), and salt. (You’ll use more harissa powder in the next step.) (For 4, divide between 2 baking sheets; roast on top and middle racks.)"
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/63fe2bbbe0f70881df0a8a93/step-55df519d.jpg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "While bell pepper and chickpeas roast, in a small pot, combine bulgur, 1 cup water, ½ tsp harissa powder (be sure to measure), and salt (we used ½ tsp). (For 4 servings, use 2 cups water, 1 tsp harissa powder; we used 1 tsp salt.) Bring to a boil, then cover and reduce to a low simmer. Cook until water has absorbed and bulgur is tender, 12-15 minutes."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/63fe2bbbe0f70881df0a8a93/step-836b7c3b.jpg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "Meanwhile, zest and halve lemon. Trim and finely dice cucumber and tomato. Trim and thinly slice scallions, separating whites from greens; mince whites. Pick and mince fronds from dill."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/63fe2bbbe0f70881df0a8a93/step-44c193ef.jpg"
+                    },
+                    {
+                        "index": 5,
+                        "instructions": [
+                            {
+                                "guide": "Squeeze juice from one lemon half (juice from whole lemon for 4 servings) into a large bowl. Whisk in lemon zest, 2 TBSP olive oil (4 TBSP for 4), and salt (we used ¼ tsp; ½ tsp for 4)."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/63fe2bbbe0f70881df0a8a93/step-768acb9c.jpg"
+                    },
+                    {
+                        "index": 6,
+                        "instructions": [
+                            {
+                                "guide": "Divide tabbouleh between bowls. Top with roasted bell pepper and chickpeas. Drizzle with feta dressing and sprinkle with scallion greens. Cut any remaining lemon into wedges and serve on the side."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/63fe2bbbe0f70881df0a8a93/step-0016a703.jpg"
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_paper_towel",
+                "_strainer",
+                "_baking_sheet",
+                "_small_pot",
+                "_small_bowl",
+                "_whisk",
+                "_zester",
+                "_large_bowl"
+            ],
+            "categories": [
+                "_middle_eastern_category",
+                "_bowl_category",
+                "_veggie_category"
+            ],
+            "nutritional_values": {
+                "calories": 810,
+                "fat": 43,
+                "saturated fat": 11,
+                "carbohydrate": 83,
+                "sugar": 12,
+                "dietary fiber": 15,
+                "protein": 23,
+                "cholesterol": 40,
+                "sodium": 1410
+            }
+        },
+        {
+            "id": "_65afe4b5a33a91ae6a3f7db6",
+            "name": "Southwest Shrimp Tacos",
+            "description": "There are few things more satisfying than shrimp for dinner. These shellfish-loaded tacos are hearty, filling, and best of all: totally delicious. Tender bites of seared, Southwest-spiced shrimp are piled into warm tortillas along with a melange of green pepper and onion, hot sauce crema, and fresh pico de gallo. Taco’bout a weeknight win!",
+            "headline": "with Pico de Gallo & Hot Sauce Crema",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/65afe4b5a33a91ae6a3f7db6-e88383f0.jpeg",
+            "recipe": {
+                "total_time": {
+                    "value": 25,
+                    "units": "minutes"
+                },
+                "prep_time": {
+                    "value": 10,
+                    "units": "minutes"
+                },
+                "difficulty": "easy",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Lime",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a3c9efd2cb9ba4f8b456c-f32287bd.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Red Onion",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a3947fd2cb9cf488b456b.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Tomato",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/556728a04dab71a90d8b456a-a580bdf4.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Long Green Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5b4fae69ae08b5571751ba62-bbadee38.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 10,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Shrimp",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550dbd8f8b25e4d4c8b456f-100c21d5.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Southwest Spice Blend",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/55a55c56fd2cb9f27c8b4567-1fe316e4.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 3,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Crema",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/632a94d32d7e43026a016c2e-32007cbc.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Hot Sauce",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/55670feafd2cb911068b4567-46f2f18b.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 6,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Flour Tortillas",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/596f6137d56afa3be43b24e2-c41c6499.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Sugar",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566e2014dab71e3078b4568-a563f2a0.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cooking Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/606db3ad4f75e662fe596b59-e437d9e4.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Wash and dry produce."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe4b5a33a91ae6a3f7db6-f3304beb.jpeg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": "Rinse shrimp under cold water, then pat dry with paper towels."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe4b5a33a91ae6a3f7db6-f9b99dac.jpeg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "In a second medium bowl, combine minced onion, tomato, half the lime zest, ¼ tsp sugar (½ tsp for 4 servings), and a squeeze of lime juice to taste (save some for Step 5). Season with salt and pepper."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe4b5a33a91ae6a3f7db6-a46c383a.jpeg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "In a small bowl, combine crema with as much hot sauce as you like. Season with salt."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe4b5a33a91ae6a3f7db6-c49f8992.jpeg"
+                    },
+                    {
+                        "index": 5,
+                        "instructions": [
+                            {
+                                "guide": "Heat a large drizzle of oil in a large, preferably nonstick, pan over medium-high heat. Add green pepper, sliced onion, salt, and pepper. Cook, stirring occasionally, until browned and tender, 6-7 minutes. Transfer to a plate."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe4b5a33a91ae6a3f7db6-61161ee0.jpeg"
+                    },
+                    {
+                        "index": 6,
+                        "instructions": [
+                            {
+                                "guide": "Meanwhile, wrap tortillas in damp paper towels and microwave until warm and pliable, about 30 seconds."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe4b5a33a91ae6a3f7db6-5dcac8d3.jpeg"
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_zester",
+                "_medium_bowl",
+                "_small_bowl",
+                "_large_pan",
+                "_paper_towel"
+            ],
+            "categories": [
+                "_taco_category",
+                "_mexican_category",
+                "_quick_meals_for_busy_nights_category",
+                "_fit_wholesome_category",
+                "_pescatarian_category",
+                "_quick_easy_category"
+            ],
+            "nutritional_values": {
+                "calories": 570,
+                "fat": 21,
+                "saturated fat": 5,
+                "carbohydrate": 60,
+                "sugar": 12,
+                "dietary fiber": 5,
+                "protein": 27,
+                "cholesterol": 220,
+                "sodium": 1510
+            }
+        },
+        {
+            "id": "_65afe4dea33a91ae6a3f7dbd",
+            "name": "Ricotta Ravioli with Blistered Tomatoes & Asparagus",
+            "description": "We love ravioli for many reasons—chiefly, its pillowy luxuriousness and how quickly it helps you get a hearty dinner on the table. These tomato-ricotta ravioli make a perfect base for a ton of other great flavors: juicy blistered tomatoes, sautéed asparagus, and caramelized shallots in a creamy basil sauce, with fresh spinach wilted right in. On the side is toasted ciabatta garlic bread for a crisp, extra-savory boost to this 15-minute meal that tastes like you were cooking it all day.",
+            "headline": "Basil Cream Sauce & Garlic Bread",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/65afe4dea33a91ae6a3f7dbd-8fed5c1e.jpeg",
+            "recipe": {
+                "total_time": {
+                    "value": 15,
+                    "units": "minutes"
+                },
+                
+                "difficulty": "easy",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 6,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Asparagus",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a3c0a4dab71636c8b456c.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Shallot",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a3dfbf8b25e1d268b456f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Lemon",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a302ffd2cb9324b8b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 4,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Grape Tomatoes",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a385afd2cb9324b8b456c-344873b8.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 9,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Fresh Tomato Ricotta Ravioli",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/6092cd6358d95604fd6b3329-d7cae9ed.jpg"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 4,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Cream Sauce Base",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5d83b5be549f805d015f41d0-8d42fa72.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Garlic Powder",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/55ef01fbf8b25eba7e8b4567-446bc04f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 20,
+                            "units": "g"
+                        },
+                        "ingredient": {
+                            "name": "Basil Paste",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64c287e3a7c1f8a1e13c16c4-eeff3aea.jpg"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 5,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Spinach",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/556706fbf8b25e242a8b456a-2fdd4c6d.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Ciabatta Roll",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566e2fcf8b25ed4298b4567-99b1ccf6.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Garlic Herb Butter",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/59948417c288006f2f318522-77982cac.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 3,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Parmesan Cheese",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550e133fd2cb9a7168b456b-fb858db7.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cooking Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/606db3ad4f75e662fe596b59-e437d9e4.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Bring a medium pot of water to a boil. (TIP: Cover pot with lid to bring water to a boil more quickly.) Wash and dry produce."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe4dea33a91ae6a3f7dbd-9389029c.jpeg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": "Once water is boiling, gently add ravioli to pot. (TIP: Move on to the next step if the water has not boiled yet.) Reduce to a low simmer. Cook, stirring occasionally, until al dente and floating to the top, 3-4 minutes.",
+                                "tip": "Gently shake strainer with ravioli in it to remove as much moisture as possible."
+                                
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe4dea33a91ae6a3f7dbd-ea7fae56.jpeg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "While ravioli cooks, heat a drizzle of oil in pan used for veggies over medium heat. Add shallot and cook, stirring constantly, until softened, 30-60 seconds."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe4dea33a91ae6a3f7dbd-9cad6634.jpeg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "Halve ciabatta and toast. Spread cut sides with as much garlic herb butter as you like; halve on a diagonal."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe4dea33a91ae6a3f7dbd-e6c26dcb.jpeg"
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_medium_pot",
+                "_large_pan",
+                "_strainer",
+                "_whisk"
+            ],
+            "categories": [
+                "_middle_eastern_category",
+                "_quick_meals_for_busy_nights_category",
+                "_veggie_category",
+                "_quick_easy_category"
+            ],
+            "nutritional_values": {
+                "calories": 840,
+                "fat": 45,
+                "saturated fat": 20,
+                "carbohydrate": 80,
+                "sugar": 12,
+                "dietary fiber": 11,
+                "protein": 25,
+                "cholesterol": 105,
+                "sodium": 1700
+            }
+        },
+        {
+            "id": "_65afe517f8a95d5728991bf0",
+            "name": "Sunny Lemon Chicken Rigatoni",
+            "description": "Think you’ve had every possible combination of chicken and pasta? Think again—our decadent spin on “chicken riggies” is one exciting shake-up in a bowl! A bright, tangy cream sauce made with seared lemon slices and Parmesan cheese coats juicy sautéed Italian-seasoned chicken. The saucy chicken is tossed with rigatoni, then topped with charred lemon slices and fresh parsley. A side of roasted broccoli rounds out this sunny dinner idea.",
+            "headline": "plus Roasted Broccoli, Parmesan & Parsley",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/64ad6e2608c61453c499aac8-391ef93c.jpeg",
+            "recipe": {
+                "total_time": {
+                    "value": 40,
+                    "units": "minutes"
+                },
+                "prep_time": {
+                    "value": 10,
+                    "units": "minutes"
+                },
+                "difficulty": "hard",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 8,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Broccoli Florets",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64b67451d4684302b8753eee-34e3ce09.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 3,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Parmesan Cheese",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550e133fd2cb9a7168b456b-fb858db7.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 10,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Chicken Cutlets",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/59c2b202c288007f56514711-21c62ba7.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Garlic Powder",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/55ef01fbf8b25eba7e8b4567-446bc04f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "clove"
+                        },
+                        "ingredient": {
+                            "name": "Garlic",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a363df8b25e1d268b456b-15867d90.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Lemon",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a302ffd2cb9324b8b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.25,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Parsley",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/5553930af8b25e5e0c8b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 6,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Rigatoni Pasta",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/57153f624dab716c318b4567-4eb86459.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 4,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Cream Sauce Base",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5d83b5be549f805d015f41d0-8d42fa72.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1.5,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Sour Cream",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550e1064dab71893e8b4569-dc52e70d.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Italian Seasoning",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/561554d5fd2cb97e5e8b4567.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Chicken Stock Concentrate",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5632315bf8b25e5a138b4568-07f14295.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cooking Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/606db3ad4f75e662fe596b59-e437d9e4.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Butter",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/5566e4d74dab71e3078b4569.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Bring a large pot of salted water to a boil. Adjust rack to top position and preheat oven to 425 degrees. Wash and dry produce."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-64ad6e2608c61453c499aac8-700010da.jpeg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": "Toss broccoli on a baking sheet with a drizzle of oil, garlic powder, salt, and pepper. Roast on top rack until browned and tender, 15-20 minutes.",
+                                "tip": "If needed, cover broccoli with foil to keep warm until ready to serve."
+                                
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-64ad6e2608c61453c499aac8-2676b1e5.jpeg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "Once water is boiling, add rigatoni to pot. Cook, stirring occasionally, until al dente, 9-11 minutes. Reserve ¼ cup pasta cooking water (½ cup for 4 servings), then drain."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-64ad6e2608c61453c499aac8-13989032.jpeg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "Pat chicken dry with paper towels; place between 2 large pieces of plastic wrap. Pound with a mallet or rolling pin until chicken is about ½ inch thick. Season all over with 1 tsp Italian Seasoning (2 tsp for 4 servings), salt, and pepper. (Be sure to measure the Italian Seasoning—we sent more!)"
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-64ad6e2608c61453c499aac8-b42d66f3.jpeg"
+                    },
+                    {
+                        "index": 5,
+                        "instructions": [
+                            {
+                                "guide": "Heat a drizzle of oil in same pan over medium-high heat. Add lemon slices in a single layer; cook, stirring occasionally, until fragrant and lightly browned, 1-2 minutes. Transfer to a plate."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-64ad6e2608c61453c499aac8-d2735e08.jpeg"
+                    },
+                    {
+                        "index": 6,
+                        "instructions": [
+                            {
+                                "guide": "Divide drained rigatoni between shallow bowls; top with saucy chicken. Spoon any remaining sauce from pan over everything. Garnish with seared lemon slices and parsley."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-64ad6e2608c61453c499aac8-be4d309c.jpeg"
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_large_pot",
+                "_baking_sheet",
+                "_strainer",
+                "_paper_towel",
+                "_plastic_wrap",
+                "_meat_mallet",
+                "_large_pan",
+                "_whisk"
+            ],
+            "categories": [
+                "_italian_category",
+                "_hall_of_fame_category",
+                "_meat_veggie_category"
+            ],
+            "nutritional_values": {
+                "calories": 880,
+                "fat": 38,
+                "saturated fat": 17,
+                "carbohydrate": 87,
+                "sugar": 11,
+                "dietary fiber": 8,
+                "protein": 52,
+                "cholesterol": 180,
+                "sodium": 740
+            }
+        },
+        {
+            "id": "_65afe5e3a33a91ae6a3f7dc9",
+            "name": "Sweet & Tangy Hoisin Pork Meatballs",
+            "description": "Our chefs add tons of flavor to tender pork meatballs with a delectable soy glaze swirled with tangy-sweet hoisin sauce that you’ll brush over during the last few minutes of roasting. The meatballs are served over a jumble of roasted sweet potatoes and tender green beans seasoned with ginger and scallion, and sprinkled with nutty, crackly sesame seeds for a hearty, colorful meal that tastes every bit as delectable as it looks.",
+            "headline": "over a Sesame-Ginger Veggie Jumble",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/65afe5e3a33a91ae6a3f7dc9-473dbf1f.jpeg",
+            "recipe": {
+                "total_time": {
+                    "value": 35,
+                    "units": "minutes"
+                },
+                "prep_time": {
+                    "value": 10,
+                    "units": "minutes"
+                },
+                "difficulty": "easy",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Sweet Potatoes",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a392cf8b25e1c268b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "thumb"
+                        },
+                        "ingredient": {
+                            "name": "Ginger",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/555a37dbf8b25e15458b4567-b313ebe1.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 6,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Green Beans",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/5553931dfd2cb9db798b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Scallions",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a301f4dab71626c8b4569-015d8d9b.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Sesame Seeds",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/632a9410944f22c503004e42-e9370f1c.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.25,
+                            "units": "cup"
+                        },
+                        "ingredient": {
+                            "name": "Panko Breadcrumbs",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a39a04dab71626c8b456b-ad74bb9c.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 10,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Ground Pork",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/55661f8afd2cb9046d8b456a.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "teaspoon"
+                        },
+                        "ingredient": {
+                            "name": "Garlic Powder",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/55ef01fbf8b25eba7e8b4567-446bc04f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Onion Powder",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/589cc527c9fd082a2d607122-e6cf7c71.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 4,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Sweet Soy Glaze",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5e04ea2c1413cb766f30181c-6c56bd3d.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Hoisin Sauce",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/55561127fd2cb9891f8b4568.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cooking Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/606db3ad4f75e662fe596b59-e437d9e4.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Adjust rack to top position (top and middle positions for 4 servings) and preheat oven to 425 degrees. Lightly oil a baking sheet. Wash and dry produce."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe5e3a33a91ae6a3f7dc9-636baec4.jpeg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": "Toss sweet potato, ginger, and sesame seeds on one side of prepared sheet with a drizzle of oil and a pinch of salt and pepper. (For 4 servings, spread out across entire sheet.) Roast on top rack for 5 minutes (you’ll add more to the sheet then)."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe5e3a33a91ae6a3f7dc9-e6c6f814.jpeg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "Once sweet potato has roasted 5 minutes, remove sheet from oven. Place meatballs on opposite side of sheet. (For 4 servings, add meatballs to a second sheet.)"
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe5e3a33a91ae6a3f7dc9-b75b43df.jpeg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "Meanwhile, in a small bowl, mix sweet soy glaze and hoisin until combined."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe5e3a33a91ae6a3f7dc9-5237931b.jpeg"
+                    },
+                    {
+                        "index": 5,
+                        "instructions": [
+                            {
+                                "guide": "Once veggies and meatballs have cooked 11 minutes, remove sheet from oven. (For 4 servings, leave veggies roasting on middle rack.)"
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe5e3a33a91ae6a3f7dc9-9c294b8e.jpeg"
+                    },
+                    {
+                        "index": 6,
+                        "instructions": [
+                            {
+                                "guide": "Divide gingery sweet potato and green bean jumble between shallow bowls; top with hoisin-glazed meatballs. Serve."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe5e3a33a91ae6a3f7dc9-738907c6.jpeg"
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_baking_sheet",
+                "_peeler",
+                "_large_bowl",
+                "_small_bowl"
+            ],
+            "categories": [
+                "_thai_category",
+                "_asian_category",
+                "_kid_friendly_category",
+                "_meat_veggie_category",
+                "_family_friendly_category"
+            ],
+            "nutritional_values": {
+                "calories": 660,
+                "fat": 31,
+                "saturated fat": 9,
+                "carbohydrate": 62,
+                "sugar": 32,
+                "dietary fiber": 6,
+                "protein": 29,
+                "cholesterol": 95,
+                "sodium": 1590
+            }
+        },
+        {
+            "id": "_65afe601f8a95d5728991bf8",
+            "name": "Sweet Potato & Pepper Quesadillas",
+            "description": "This quesadilla is jam-packed with flavorful roasted sweet potato and green pepper, plus two types of gooey, melty cheese (how could we choose just one?!). Of course, we’d never forget the toppings—there’s a fresh tomato salsa and dollops of spiced lime crema. Now for the fun part: piling on a little bit of everything to construct the perfect bite!",
+            "headline": "with Southwest Crema & Tomato Salsa",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/65afe601f8a95d5728991bf8-86deb91e.jpeg",
+            "recipe": {
+                "total_time": {
+                    "value": 35,
+                    "units": "minutes"
+                },
+                "prep_time": {
+                    "value": 10,
+                    "units": "minutes"
+                },
+                "difficulty": "easy",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Sweet Potatoes",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a392cf8b25e1c268b4569.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Long Green Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5b4fae69ae08b5571751ba62-bbadee38.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Onion",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64b67452a7c1f8a1e13bae64-7c95cf4b.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Lime",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a3c9efd2cb9ba4f8b456c-f32287bd.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Southwest Spice Blend",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/55a55c56fd2cb9f27c8b4567-1fe316e4.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 3,
+                            "units": "tablespoon"
+                        },
+                        "ingredient": {
+                            "name": "Crema",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/632a94d32d7e43026a016c2e-32007cbc.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 2,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Flour Tortillas",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/596f6137d56afa3be43b24e2-c41c6499.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.5,
+                            "units": "cup"
+                        },
+                        "ingredient": {
+                            "name": "Cheddar Cheese",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/55681323fd2cb9eb098b4568-4ea538b0.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.5,
+                            "units": "cup"
+                        },
+                        "ingredient": {
+                            "name": "Mozzarella Cheese",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/57484aea4dab71ac228b4567.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.25,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Cilantro",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a3c4d4dab71716c8b456c-4339dd73.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Tomato",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/556728a04dab71a90d8b456a-a580bdf4.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cooking Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/606db3ad4f75e662fe596b59-e437d9e4.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Olive Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566cdf2f8b25e0d298b4568-c4fea450.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Adjust rack to top position and preheat oven to 450 degrees. Wash and dry produce."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe601f8a95d5728991bf8-821a9789.jpeg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": "While sweet potato roasts, core, deseed, and dice green pepper. Halve, peel, and dice onion; mince a few pieces until you have 1 TBSP (2 TBSP for 4 servings). Dice tomato. Finely chop cilantro. Quarter lime."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe601f8a95d5728991bf8-44beca00.jpeg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "Heat a drizzle of oil in a large pan over medium-high heat. Add green pepper and diced onion; season with salt and pepper. Cook, stirring, until tender, 5-7 minutes."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/6434ec9b9582c1ab11057bc7/step-2ec8d7b0.jpg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "In a medium bowl, combine tomato, cilantro, minced onion, a squeeze of lime juice, and a large drizzle of olive oil. Season generously with salt and pepper."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe601f8a95d5728991bf8-00dc8c79.jpeg"
+                    },
+                    {
+                        "index": 5,
+                        "instructions": [
+                            {
+                                "guide": "Place tortillas on a clean work surface. • In a second small bowl, combine cheddar and mozzarella."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/6434ec9b9582c1ab11057bc7/step-d4564eef.jpg"
+                    },
+                    {
+                        "index": 6,
+                        "instructions": [
+                            {
+                                "guide": "Wash out pan used for veggies. Heat a drizzle of oil in same pan over medium high heat. Add quesadillas and cook until tortillas are golden brown and cheese melts, 2-4 minutes per side.",
+                                "tip": "Depending on the size of your pan, you may need to work in batches."
+                                
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe601f8a95d5728991bf8-d39131da.jpeg"
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_baking_sheet",
+                "_peeler",
+                "_small_bowl",
+                "_large_pan",
+                "_medium_bowl"
+            ],
+            "categories": [
+                "_latin_american_category",
+                "_quesadilla_category",
+                "_veggie_category"
+            ],
+            "nutritional_values": {
+                "calories": 700,
+                "fat": 37,
+                "saturated fat": 14,
+                "carbohydrate": 69,
+                "sugar": 14,
+                "dietary fiber": 7,
+                "protein": 21,
+                "cholesterol": 55,
+                "sodium": 930
+            }
+        },
+        {
+            "id": "_65afe538a33a91ae6a3f7dc6",
+            "name": "Smoky Brown Sugar Chicken & Kale Salad",
+            "description": "Bourbon in a salad? Sounds crazy, we know. But, don’t worry—you won’t be raiding your liquor cabinet for this meal! Our brown sugar bourbon seasoning blend brings sweetness and depth of flavor to pan-seared chicken. It's served over tender kale packed with roasted carrots, raisins, and crisp apple slices, then topped with sunflower seeds for crunch and a honey-Dijon drizzle to complement the spiced bourbon chicken. Trust us—it’s worth a shot!",
+            "headline": "with Apple, Roasted Carrots, Sunflower Seeds & Honey Dijon Dressing",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/65afe538a33a91ae6a3f7dc6-dd87bf5a.jpeg",
+            "recipe": {
+                "total_time": {
+                    "value": 35,
+                    "units": "minutes"
+                },
+                "prep_time": {
+                    "value": 5,
+                    "units": "minutes"
+                },
+                "difficulty": "easy",
+                "ingredients": [
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 6,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Carrots",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550dbfdf8b25e56468b456d-28d1540f.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 4,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Kale",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/5566ef2dfd2cb95e018b4568.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "unit"
+                        },
+                        "ingredient": {
+                            "name": "Apple",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a3a7cf8b25ed7288b456b.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 10,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Chicken Cutlets",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/59c2b202c288007f56514711-21c62ba7.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 10.8,
+                            "units": "g"
+                        },
+                        "ingredient": {
+                            "name": "Brown Sugar Bourbon Seasoning",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5e7ba442370b6b779b694c18-a12e23e4.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 1,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Sun-Maid Raisins",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/654150c62fab1d7bab119f3d-49f38bed.jpg"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 3,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Honey Dijon Dressing",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5e554e45dfd6a672ce7e0864-8629fc53.png"
+                        }
+                    },
+                    {
+                        "type": "in_box",
+                        "amount": {
+                            "value": 0.5,
+                            "units": "ounce"
+                        },
+                        "ingredient": {
+                            "name": "Sunflower Seeds",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/566876e9f8b25e960a8b4567.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Salt",
+                            "image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2022/02/TooMuchSodiuml-1051727580-770x533-1.jpg"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Pepper",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5566ceedf8b25e68258b456a-afb6ee21.png"
+                        }
+                    },
+                    {
+                        "type": "at_home",
+                        "ingredient": {
+                            "name": "Cooking Oil",
+                            "image": "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/606db3ad4f75e662fe596b59-e437d9e4.png"
+                        }
+                    }],
+                "steps": [
+                    {
+                        "index": 1,
+                        "instructions": [
+                            {
+                                "guide": "Adjust rack to top position and preheat oven to 425 degrees. Wash and dry produce."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/62f29aed0e43ddd4f206c3d2/step-90028c83.jpg"
+                    },
+                    {
+                        "index": 2,
+                        "instructions": [
+                            {
+                                "guide": "Meanwhile, remove and discard any large stems from kale; chop into bitesize pieces. Halve, core, and thinly slice half the apple (whole apple for 4 servings)."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/62f29aed0e43ddd4f206c3d2/step-d4942be0.jpg"
+                    },
+                    {
+                        "index": 3,
+                        "instructions": [
+                            {
+                                "guide": "Place kale in a large bowl and lightly season with salt. Using your hands, massage kale (similar to how you would knead dough), until leaves are tender, 30-60 seconds."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/62f29aed0e43ddd4f206c3d2/step-03de125b.jpg"
+                    },
+                    {
+                        "index": 4,
+                        "instructions": [
+                            {
+                                "guide": "Pat chicken dry with paper towels and season all over with Brown Sugar Bourbon Seasoning, salt, and pepper."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/62f29aed0e43ddd4f206c3d2/step-9dd4706b.jpg"
+                    },
+                    {
+                        "index": 5,
+                        "instructions": [
+                            {
+                                "guide": "Add California Sun-Dried Raisins, roasted carrots, and sliced apple to bowl with kale. Season with salt and pepper."
+                            }
+                        ],
+                        "image": "https://img.hellofresh.com/w_750,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/recipe/step-65afe538a33a91ae6a3f7dc6-84df6af0.jpeg"
+                    },
+                    {
+                        "index": 6,
+                        "instructions": [
+                            {
+                                "guide": "Thinly slice chicken crosswise."
+                            }
+                        ],
+                        "image": ""
+                    }
+                ]
+            },
+            "price": "_normal_price_type",
+            "utensils": [
+                "_peeler",
+                "_baking_sheet",
+                "_large_bowl",
+                "_paper_towel",
+                "_large_pan",
+                "_small_bowl"
+            ],
+            "categories": [
+                "_quick_meals_for_busy_nights_category",
+                "_kid_friendly_category",
+                "_mediterranean_category",
+                "_fit_wholesome_category",
+                "_meat_veggie_category",
+                "_family_friendly_category"
+            ],
+            "nutritional_values": {
+                "calories": 580,
+                "fat": 30,
+                "saturated fat": 4.5,
+                "carbohydrate": 42,
+                "sugar": 28,
+                "dietary fiber": 7,
+                "protein": 36,
+                "cholesterol": 115,
+                "sodium": 1200
+            }
+        }
+    ]
+}

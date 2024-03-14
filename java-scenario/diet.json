@@ -1,0 +1,44 @@
+{
+  "diet": [
+    {
+      "nutrition": "_ENERGYKJ",
+      "value": 8368
+    },
+    {
+      "nutrition": "_SODIUM",
+      "value": 1900.0
+    },
+    {
+      "nutrition": "_SATURATED_FAT",
+      "value": 30.0
+    },
+    {
+      "nutrition": "_FAT",
+      "value": 65.0
+    },
+    {
+      "nutrition": "_DIETARY_FIBER",
+      "value": 17.0
+    },
+    {
+      "nutrition": "_CHOLESTEROL",
+      "value": 400.0
+    },
+    {
+      "nutrition": "_CARBOHYDRATE",
+      "value": 160.0
+    },
+    {
+      "nutrition": "_SUGAR",
+      "value": 46.0
+    },
+    {
+      "nutrition": "_PROTEIN",
+      "value": 70.0
+    },
+    {
+      "nutrition": "_CALORIES",
+      "value": 1600
+    }
+  ]
+}

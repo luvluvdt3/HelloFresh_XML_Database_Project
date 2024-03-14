@@ -1,0 +1,210 @@
+<!ELEMENT hello_fresh (meals_list, ingredients_list, allergens_list, nutritional_component_list, utensil_list, tag_list,  difficulty_list, category_list, price_type_list, weekly_menu_list, feedbacks_list, favorite_list, user_list, command_list,  delivery_list)>
+        <!ELEMENT meals_list (meal+)>
+        <!ELEMENT ingredients_list (ingredient+)>
+        <!ELEMENT ingredient (image, allergens*)>
+
+        <!ATTLIST ingredient
+                id ID #REQUIRED
+                name CDATA #REQUIRED
+                description CDATA #IMPLIED>
+        <!ELEMENT ingredient_ref (amount?)>
+        <!--Amount per serving-->
+        <!ELEMENT amount EMPTY>
+        <!ATTLIST amount
+                unit CDATA #REQUIRED
+                value CDATA #IMPLIED>
+        <!ATTLIST ingredient_ref
+                idref IDREF #REQUIRED
+                type (in_box|at_home) #REQUIRED>
+        <!ELEMENT allergens_list (allergen+)>
+        <!ELEMENT allergens (allergen_ref+)>
+        <!ELEMENT allergen (#PCDATA)>
+        <!ATTLIST allergen
+                id ID #REQUIRED
+                description CDATA #IMPLIED>
+        <!ELEMENT allergen_ref EMPTY>
+        <!ATTLIST allergen_ref
+                idref IDREF #REQUIRED>
+        <!ELEMENT nutritional_component_list (nutritional_component+)>
+        <!ELEMENT nutritional_component (#PCDATA)>
+        <!ATTLIST nutritional_component
+                id ID #REQUIRED
+                unit CDATA #REQUIRED
+                description CDATA #IMPLIED>
+        <!ELEMENT nutritional_component_ref EMPTY>
+        <!ATTLIST nutritional_component_ref
+                idref IDREF #REQUIRED
+                value CDATA #REQUIRED>
+        <!ELEMENT utensil_list (utensil+)>
+        <!ELEMENT utensil (#PCDATA)>
+        <!ATTLIST utensil
+                id ID #REQUIRED
+                description CDATA #IMPLIED>
+        <!ELEMENT utensil_ref EMPTY>
+        <!ATTLIST utensil_ref
+                idref IDREF #REQUIRED>
+        <!ELEMENT difficulty_list (difficulty+)>
+        <!ELEMENT difficulty (#PCDATA)>
+        <!ATTLIST difficulty
+                id ID #REQUIRED
+                level (easy|medium|hard) #REQUIRED>
+        <!ELEMENT difficulty_ref EMPTY>
+        <!ATTLIST difficulty_ref
+                idref IDREF #REQUIRED>
+        <!ELEMENT category_list (category+)>
+        <!ELEMENT category (#PCDATA | image)*>
+        <!ATTLIST category
+                id ID #REQUIRED
+                type (dish|culture|particular|plan) #REQUIRED
+                description CDATA #IMPLIED>
+        <!--Different categories:-->
+        <!-- - Dish: Based on the type of dish (ex: pasta, bowl dish, meatball, risotto, etc) for easy search per category-->
+        <!-- - Culture: Based on the culture of the dish (ex: Italian, Mexican, Indian, etc) for easy search per category-->
+        <!-- - Particular: Based on the particularity of the dish (ex: Most recent, kid-friendly, etc) for easy search per category-->
+        <!-- - Plan: Based on the plan of the dish (ex: Meat&Veggie, Veggie(aka vegetarian), Family Friendly, etc) for preference  most relevant recipes first-->
+        <!ELEMENT category_ref EMPTY>
+        <!ATTLIST category_ref
+                idref IDREF #REQUIRED>
+        <!ELEMENT command_list (command+)>
+        <!ELEMENT command (user_ref, meal_ref_list , serving_number, total_price, discount?, final_total?, delivery_ref, command_date)>
+        <!ATTLIST command
+                id ID #REQUIRED>
+        <!ELEMENT final_total (money_amount)>
+        <!ELEMENT meal_ref_list (meal_ref+)>
+        <!ELEMENT serving_number (#PCDATA)>
+        <!ELEMENT total_price (money_amount)>
+        <!ELEMENT money_amount EMPTY>
+        <!ATTLIST money_amount
+                value CDATA #REQUIRED
+                currency (USD|EUR|CAD|GBP) #REQUIRED>
+        <!ELEMENT discount (#PCDATA)>
+        <!ELEMENT delivery_ref EMPTY>
+        <!ATTLIST delivery_ref
+                idref IDREF #REQUIRED>
+        <!ELEMENT command_date (#PCDATA)>
+
+        <!ELEMENT weekly_menu_list (weekly_menu+)>
+        <!ELEMENT price_type_list (price_type+)>
+        <!ELEMENT price_type (money_amount)>
+        <!ATTLIST price_type
+                id ID #REQUIRED
+                type (normal|prime|luxury) #REQUIRED>
+        <!ELEMENT price_type_ref EMPTY>
+        <!ATTLIST price_type_ref
+                idref IDREF #REQUIRED>
+        <!ELEMENT user_list (user+)>
+        <!ELEMENT delivery_list (delivery+)>
+        <!ELEMENT meal_ref EMPTY>
+        <!ATTLIST meal_ref
+                idref IDREF #REQUIRED>
+        <!ELEMENT meal ( headline?, image, tags?, recipe, utensils, categories?, price_type_ref, nutritional_values)>
+        <!ATTLIST meal
+                id ID #REQUIRED
+                name CDATA #REQUIRED
+                description CDATA #REQUIRED>
+
+        <!ELEMENT recipe (total_time, prep_time?, difficulty_ref, ingredients, steps )>
+        <!ELEMENT ingredients (ingredient_ref+)>
+        <!ELEMENT nutritional_values (nutritional_component_ref+)>
+
+        <!ELEMENT steps (step+)>
+        <!ELEMENT step (index, instructions, duration?, image)>
+        <!ELEMENT index (#PCDATA)>
+        <!ELEMENT instructions (instruction+, tip?)>
+        <!ELEMENT instruction (guide, tip?)>
+        <!ELEMENT guide (#PCDATA)>
+        <!ELEMENT duration (#PCDATA)>
+        <!ELEMENT tip (#PCDATA)>
+        <!ELEMENT categories (category_ref+)>
+        <!ELEMENT headline (#PCDATA)>
+        <!ELEMENT tags (tag_ref+)>
+        <!ELEMENT total_time (time_amount)>
+        <!ELEMENT prep_time (time_amount)>
+        <!ELEMENT time_amount EMPTY>
+        <!ATTLIST time_amount
+                value CDATA #REQUIRED
+                unit (minutes|hours) #REQUIRED>
+        <!ELEMENT utensils (utensil_ref+)>
+
+        <!ELEMENT feedbacks_list (feedback+)>
+        <!ELEMENT feedback (mark, image*, comment?)>
+        <!ATTLIST feedback
+                id ID #REQUIRED
+                meal_id IDREF #REQUIRED
+                user_id IDREF #REQUIRED>
+
+        <!ELEMENT mark EMPTY>
+        <!ATTLIST mark
+                value (1|2|3|4) #REQUIRED>
+        <!ELEMENT comment (#PCDATA)>
+
+        <!ELEMENT favorite_list (favorite+)>
+        <!ELEMENT favorite EMPTY>
+        <!ATTLIST favorite
+                id ID #REQUIRED
+                meal_id IDREF #REQUIRED
+                user_id IDREF #REQUIRED>
+
+        <!ELEMENT tag_list (tag+)>
+        <!ELEMENT tag (#PCDATA)>
+        <!ATTLIST tag
+                id ID #REQUIRED
+                description CDATA #IMPLIED>
+        <!ELEMENT tag_ref EMPTY>
+        <!ATTLIST tag_ref
+                idref IDREF #REQUIRED>
+
+        <!ELEMENT weekly_menu (week, meal_ref_list)>
+        <!ATTLIST weekly_menu
+                id ID #REQUIRED>
+        <!ELEMENT week EMPTY>
+        <!ATTLIST week
+                start_date CDATA #REQUIRED
+                end_date CDATA #REQUIRED>
+
+
+        <!ELEMENT user (user_name, email, password, user_address, image?)>
+        <!ATTLIST user
+                id ID #REQUIRED>
+        <!ELEMENT user_name (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT password (#PCDATA)>
+        <!ELEMENT user_address (address)>
+        <!ATTLIST user_address
+                id ID #REQUIRED>
+        <!ELEMENT user_address_ref EMPTY>
+        <!ATTLIST user_address_ref
+                idref IDREF #REQUIRED>
+        <!ELEMENT address (receiver_name, street_number, street_name,  city, postal_code, state?, country, telephone_number, additional_address?, additional_information?)>
+        <!ELEMENT receiver_name (#PCDATA)>
+        <!ELEMENT street_number (#PCDATA)>
+        <!ELEMENT street_name (#PCDATA)>
+        <!ELEMENT city (#PCDATA)>
+        <!ELEMENT postal_code (#PCDATA)>
+        <!ELEMENT state (#PCDATA)>
+        <!ELEMENT country (#PCDATA)>
+        <!ELEMENT telephone_number (#PCDATA)>
+        <!ELEMENT additional_address (#PCDATA)>
+        <!ELEMENT additional_information (#PCDATA)>
+        <!ELEMENT user_ref EMPTY>
+        <!ATTLIST user_ref
+                idref IDREF #REQUIRED>
+
+        <!ELEMENT address_ref EMPTY>
+        <!ATTLIST address_ref
+                idref IDREF #REQUIRED>
+
+        <!ELEMENT delivery (date, status, address_ref)>
+        <!ATTLIST delivery
+                id ID #REQUIRED>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT status EMPTY>
+        <!ATTLIST status
+                value (confirmed|preparing|on_the_way|delivered|canceled) #REQUIRED>
+
+        <!--Commom elements-->
+        <!ELEMENT image (#PCDATA)>
+        <!ATTLIST image
+                src CDATA #REQUIRED
+                alt CDATA #IMPLIED>
+        <!--End of common elements-->

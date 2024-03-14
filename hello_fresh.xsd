@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="hello_fresh">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="meals_list"/>
+                <xs:element ref="ingredients_list"/>
+                <xs:element ref="allergens_list"/>
+                <xs:element ref="nutritional_component_list"/>
+                <xs:element ref="utensil_list"/>
+                <xs:element ref="tag_list"/>
+                <xs:element ref="difficulty_list"/>
+                <xs:element ref="category_list"/>
+                <xs:element ref="price_type_list"/>
+                <xs:element ref="weekly_menu_list"/>
+                <xs:element ref="feedbacks_list"/>
+                <xs:element ref="favorite_list"/>
+                <xs:element ref="user_list"/>
+                <xs:element ref="command_list"/>
+                <xs:element ref="delivery_list"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="meals_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="meal"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ingredients_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="ingredient"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ingredient">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="image"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="allergens"/>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+            <xs:attribute name="name" use="required" type="xs:string"/>
+            <xs:attribute name="description" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ingredient_ref">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="amount"/>
+            </xs:sequence>
+            <xs:attribute name="idref" use="required" type="xs:IDREF"/>
+            <xs:attribute name="type" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="in_box"/>
+                        <xs:enumeration value="at_home"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <!-- Amount per serving -->
+    <xs:element name="amount">
+        <xs:complexType>
+            <xs:attribute name="unit" type="xs:string" use="required"/>
+            <xs:attribute name="value" type="xs:decimal"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="allergens_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="allergen"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="allergens">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="allergen_ref"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="allergen">
+        <xs:complexType mixed="true">
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+            <xs:attribute name="description" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="allergen_ref">
+        <xs:complexType>
+            <xs:attribute name="idref" use="required" type="xs:IDREF"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nutritional_component_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="nutritional_component"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nutritional_component">
+        <xs:complexType mixed="true">
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+            <xs:attribute name="unit" use="required" type="xs:string"/>
+            <xs:attribute name="description" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nutritional_component_ref">
+        <xs:complexType>
+            <xs:attribute name="idref" use="required" type="xs:IDREF"/>
+            <xs:attribute name="value" use="required" type="xs:decimal"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="utensil_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="utensil"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="utensil">
+        <xs:complexType mixed="true">
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+            <xs:attribute name="description" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="utensil_ref">
+        <xs:complexType>
+            <xs:attribute name="idref" use="required" type="xs:IDREF"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="difficulty_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="difficulty"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="difficulty">
+        <xs:complexType mixed="true">
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+            <xs:attribute name="level" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="easy"/>
+                        <xs:enumeration value="medium"/>
+                        <xs:enumeration value="hard"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="difficulty_ref">
+        <xs:complexType>
+            <xs:attribute name="idref" use="required" type="xs:IDREF"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="category_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="category"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="category">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="image"/>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+            <xs:attribute name="type" use="required" type="xs:string">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="dish"/>
+                        <xs:enumeration value="culture"/>
+                        <xs:enumeration value="particular"/>
+                        <xs:enumeration value="plan"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="description" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- Different categories: -->
+    <!--  - Dish: Based on the type of dish (ex: pasta, bowl dish, meatball, risotto, etc) for easy search per category -->
+    <!--  - Culture: Based on the culture of the dish (ex: Italian, Mexican, Indian, etc) for easy search per category -->
+    <!--  - Particular: Based on the particularity of the dish (ex: Most recent, kid-friendly, etc) for easy search per category -->
+    <!--  - Plan: Based on the plan of the dish (ex: Meat&Veggie, Veggie(aka vegetarian), Family Friendly, etc) for preference  most relevant recipes first -->
+    <xs:element name="category_ref">
+        <xs:complexType>
+            <xs:attribute name="idref" use="required" type="xs:IDREF"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="command_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="command"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="command">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="user_ref"/>
+                <xs:element ref="meal_ref_list"/>
+                <xs:element ref="serving_number"/>
+                <xs:element ref="total_price"/>
+                <xs:element minOccurs="0" ref="discount"/>
+                <xs:element minOccurs="0" ref="final_total"/>
+                <xs:element ref="delivery_ref"/>
+                <xs:element ref="command_date"/>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="final_total" type="money_amount"/>
+    <xs:element name="meal_ref_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="meal_ref"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="serving_number" type="xs:int"/>
+    <xs:element name="total_price" type="money_amount"/>
+    <xs:complexType name="money_amount">
+        <xs:sequence>
+            <xs:element ref="money_amount"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="money_amount">
+        <xs:complexType>
+            <xs:attribute name="value" use="required" type="xs:decimal"/>
+            <xs:attribute name="currency" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="USD"/>
+                        <xs:enumeration value="EUR"/>
+                        <xs:enumeration value="CAD"/>
+                        <xs:enumeration value="GBP"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="discount" type="xs:int"/>
+    <xs:element name="delivery_ref">
+        <xs:complexType>
+            <xs:attribute name="idref" use="required" type="xs:IDREF"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="command_date" type="xs:dateTime"/>
+    <xs:element name="weekly_menu_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="weekly_menu"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="price_type_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="price_type"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="price_type">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="money_amount">
+                    <xs:attribute name="id" use="required" type="xs:ID"/>
+                    <xs:attribute name="type" use="required">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="normal"/>
+                                <xs:enumeration value="prime"/>
+                                <xs:enumeration value="luxury"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="price_type_ref">
+        <xs:complexType>
+            <xs:attribute name="idref" use="required" type="xs:IDREF"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="user_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="user"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="delivery_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="delivery"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="meal_ref">
+        <xs:complexType>
+            <xs:attribute name="idref" use="required" type="xs:IDREF"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="meal">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="headline"/>
+                <xs:element ref="image"/>
+                <xs:element minOccurs="0" ref="tags"/>
+                <xs:element ref="recipe"/>
+                <xs:element ref="utensils"/>
+                <xs:element minOccurs="0" ref="categories"/>
+                <xs:element ref="price_type_ref"/>
+                <xs:element ref="nutritional_values"/>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+            <xs:attribute name="name" use="required" type="xs:string"/>
+            <xs:attribute name="description" use="required" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="recipe">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="total_time"/>
+                <xs:element minOccurs="0" ref="prep_time"/>
+                <xs:element ref="difficulty_ref"/>
+                <xs:element ref="ingredients"/>
+                <xs:element ref="steps"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ingredients">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="ingredient_ref"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nutritional_values">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="nutritional_component_ref"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="steps">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="step"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="step">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="index"/>
+                <xs:element ref="instructions"/>
+                <xs:element minOccurs="0" ref="duration"/>
+                <xs:element ref="image"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="index" type="xs:int"/>
+    <xs:element name="instructions">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="instruction"/>
+                <xs:element minOccurs="0" ref="tip"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="instruction">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="guide"/>
+                <xs:element minOccurs="0" ref="tip"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="guide" type="xs:string"/>
+    <xs:element name="duration" type="xs:int"/>
+    <xs:element name="tip" type="xs:string"/>
+    <xs:element name="categories">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="category_ref"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="headline" type="xs:string"/>
+    <xs:element name="tags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="tag_ref"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="total_time" type="time_amount"/>
+    <xs:element name="prep_time" type="time_amount"/>
+    <xs:complexType name="time_amount">
+        <xs:sequence>
+            <xs:element ref="time_amount"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="time_amount">
+        <xs:complexType>
+            <xs:attribute name="value" use="required" type="xs:decimal"/>
+            <xs:attribute name="unit" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="minutes"/>
+                        <xs:enumeration value="hours"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="utensils">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="utensil_ref"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="feedbacks_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="feedback"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="feedback">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mark"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="image"/>
+                <xs:element minOccurs="0" ref="comment"/>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+            <xs:attribute name="meal_id" use="required" type="xs:IDREF"/>
+            <xs:attribute name="user_id" use="required" type="xs:IDREF"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="mark">
+        <xs:complexType>
+            <xs:attribute name="value" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:int">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="2"/>
+                        <xs:enumeration value="3"/>
+                        <xs:enumeration value="4"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="comment" type="xs:string"/>
+    <xs:element name="favorite_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="favorite"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="favorite">
+        <xs:complexType>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+            <xs:attribute name="meal_id" use="required" type="xs:IDREF"/>
+            <xs:attribute name="user_id" use="required" type="xs:IDREF"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tag_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="tag"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tag">
+        <xs:complexType mixed="true">
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+            <xs:attribute name="description" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tag_ref">
+        <xs:complexType>
+            <xs:attribute name="idref" use="required" type="xs:IDREF"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="weekly_menu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="week"/>
+                <xs:element ref="meal_ref_list"/>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="week">
+        <xs:complexType>
+            <xs:attribute name="start_date" use="required" type="xs:date"/>
+            <xs:attribute name="end_date" use="required" type="xs:date"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="user">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="user_name"/>
+                <xs:element ref="email"/>
+                <xs:element ref="password"/>
+                <xs:element ref="user_address"/>
+                <xs:element minOccurs="0" ref="image"/>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="user_name" type="xs:string"/>
+    <xs:element name="email" type="xs:string"/>
+    <xs:element name="password" type="xs:string"/>
+    <xs:element name="user_address">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="address">
+                    <xs:attribute name="id" use="required" type="xs:ID"/>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="user_address_ref">
+        <xs:complexType>
+            <xs:attribute name="idref" use="required" type="xs:IDREF"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="address">
+        <xs:sequence>
+            <xs:element ref="address"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="address">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="receiver_name"/>
+                <xs:element ref="street_number"/>
+                <xs:element ref="street_name"/>
+                <xs:element ref="city"/>
+                <xs:element ref="postal_code"/>
+                <xs:element minOccurs="0" ref="state"/>
+                <xs:element ref="country"/>
+                <xs:element ref="telephone_number"/>
+                <xs:element minOccurs="0" ref="additional_address"/>
+                <xs:element minOccurs="0" ref="additional_information"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="receiver_name" type="xs:string"/>
+    <xs:element name="street_number" type="xs:string"/>
+    <xs:element name="street_name" type="xs:string"/>
+    <xs:element name="city" type="xs:string"/>
+    <xs:element name="postal_code" type="xs:string"/>
+    <xs:element name="state" type="xs:string"/>
+    <xs:element name="country" type="xs:string"/>
+    <xs:element name="telephone_number" type="xs:string"/>
+    <xs:element name="additional_address" type="xs:string"/>
+    <xs:element name="additional_information" type="xs:string"/>
+    <xs:element name="user_ref">
+        <xs:complexType>
+            <xs:attribute name="idref" use="required" type="xs:IDREF"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="address_ref">
+        <xs:complexType>
+            <xs:attribute name="idref" use="required" type="xs:IDREF"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="delivery">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="date"/>
+                <xs:element ref="status"/>
+                <xs:element ref="address_ref"/>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="date" type="xs:dateTime"/>
+    <xs:element name="status">
+        <xs:complexType>
+            <xs:attribute name="value" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="confirmed"/>
+                        <xs:enumeration value="preparing"/>
+                        <xs:enumeration value="on_the_way"/>
+                        <xs:enumeration value="delivered"/>
+                        <xs:enumeration value="canceled"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <!-- Commom elements -->
+    <xs:element name="image">
+        <xs:complexType mixed="true">
+            <xs:attribute name="src" use="required" type="xs:string"/>
+            <xs:attribute name="alt" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+        <!-- End of common elements -->

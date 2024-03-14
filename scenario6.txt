@@ -1,0 +1,63 @@
+Diet : {
+
+Meal: {
+	id: _65b1548ea33a91ae6a3f8df2
+	name: Shrimp Pasta Primavera
+	description: Craving a rich pasta dish but also a bounty of veggies? Thanks to this recipe, you don’t have to choose between the two. Here, you’ll find al dente penne pasta, green peas, and roasted bell pepper and zucchini, all tossed in a creamy, dreamy sauce that’s brightened with lemon juice and made aromatic with Italian herbs. Each plate is showered with grated Parmesan for an im-pasta-bly delicious dinner.
+	headline: with Lemon Sauce, Bell Pepper, Zucchini & Peas
+	imageSrc: https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/63fe379d1577033fb2010fc3-5354cfcd.jpg
+	categories: {
+		Kid-Friendly; plan = particular;
+		Pastas; plan = dish;
+		Italian; plan = culture;
+		Pescatarian; plan = plan;
+	}
+	priceType: normal = 11.49
+	nutritionalValues: {
+		sugar = 14.0 g
+		sodium = 1420.0 g
+		dietary fiber = 10.0 g
+		cholesterol = 290.0 g
+		carbohydrate = 93.0 g
+		saturated fat = 17.0 g
+		protein = 40.0 g
+		calories = 880.0 kcal
+		fat = 36.0 g
+	}
+	averageMark: 4.0
+	numberOfVoices: 2
+}
+Meal: {
+	id: _65afe325a33a91ae6a3f7d7a
+	name: Sweet & Smoky Pork Filet
+	description: If you’re craving something that’s good and hearty, this recipe has got you covered. Pork filet is rubbed with cinnamon and smoked paprika, which brings a layer of warm aromatics to the meat. It’s then roasted and drizzled in a cherry jam sauce that adds sweetness to all that savory. The mashed potatoes on the side stay creamy and classic, but there are also tender roasted carrots with a sprinkle of chili flakes for a pop of heat.
+	headline: with Chili Roasted Carrots, Mashed Potatoes & Cherry Sauce
+	imageSrc: https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/63fe19cac815bf3b36091982-b84b8390.jpg
+	tags: {
+		Protein Smart
+		Calorie Smart
+	}
+	categories: {
+		Kid-Friendly; plan = particular;
+		Fit & Wholesome; plan = plan;
+		Family Friendly; plan = plan;
+		Middle Eastern; plan = culture;
+		Meat & Veggie; plan = plan;
+	}
+	priceType: normal = 11.49
+	nutritionalValues: {
+		carbohydrate = 67.0 g
+		calories = 650.0 kcal
+		fat = 28.0 g
+		sodium = 510.0 g
+		dietary fiber = 7.0 g
+		saturated fat = 12.0 g
+		sugar = 32.0 g
+		protein = 31.0 g
+		cholesterol = 125.0 g
+	}
+	averageMark: 4.0
+	numberOfVoices: 2
+}
+}
+

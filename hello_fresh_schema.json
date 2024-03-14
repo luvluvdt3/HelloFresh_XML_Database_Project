@@ -1,0 +1,285 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+
+  "definitions": {
+    "meal": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "headline": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        },
+        "recipe": {
+          "$ref": "#/definitions/recipe"
+        },
+        "utensils": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/utensils"
+          }
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/category_list"
+          }
+        },
+        "price": {
+          "type": "string",
+          "enum": [
+            "_normal_price_type",
+            "_prime_price_type",
+            "_luxury_price_type"
+          ]
+        },
+        "nutritional_values": {
+          "$ref": "#/definitions/nutritional_values"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/tag"
+          }
+        }
+      },
+      "required": ["name", "description", "nutritional_values", "price", "utensils", "recipe", "image"]
+    },
+    "amount": {
+      "type": "object",
+      "properties": {
+        "value": { "type": "number" },
+        "units": { "type": "string" }
+      },
+      "required": ["value", "units"]
+    },
+    "recipe": {
+      "type": "object",
+      "properties": {
+        "total_time": {
+          "$ref": "#/definitions/amount"
+        },
+        "prep_time": {
+          "$ref": "#/definitions/amount"
+        },
+        "difficulty": {
+          "$ref": "#/definitions/difficulty"
+        },
+        "ingredients": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ingredient_amount"
+          }
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/step"
+          }
+        }
+      },
+      "required": ["ingredients", "steps", "difficulty", "total_time"]
+    },
+    "ingredient_amount": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "@ref": "#/definitions/amount"
+        },
+        "type": {
+          "enum": ["in_box", "at_home"]
+        },
+        "allergens": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/allergen"
+          }
+        },
+        "ingredient": {
+          "$ref": "#/definitions/ingredient"
+        }
+      },
+      "required": ["ingredient", "type"]
+    },
+    "ingredient": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+
+        "image": {
+          "type": "string"
+        }
+      },
+      "required": ["name", "image"]
+    },
+    "allergen": {
+        "type": "string",
+        "enum": [
+          "_milk",
+          "_eggs",
+          "_wheat",
+          "_soy",
+          "_sesame",
+          "_shellfish",
+          "_fish",
+          "_tree_nuts"
+        ]
+    },
+    "step": {
+      "type": "object",
+      "properties": {
+        "index": {
+          "type": "integer"
+        },
+        "instructions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/instruction"
+          }
+        },
+        "image": {
+          "type": "string"
+        }
+      },
+      "required": ["index", "instructions", "image"]
+    },
+    "instruction": {
+      "type": "object",
+      "properties": {
+        "guide": {
+          "type": "string"
+        },
+        "tip": {
+          "type": "string"
+        }
+      },
+      "required": ["guide"]
+    },
+
+    "difficulty": {
+      "type": "string",
+      "enum": ["easy", "medium", "hard"]
+    },
+
+    "tag": {
+      "type": "string",
+      "enum": [
+        "_gluten_free_tag",
+        "_protein_smart_tag",
+        "_easy_prep_tag",
+        "_quick_tag",
+        "_calorie_smart_tag",
+        "_veggie_tag",
+        "_seasonal_tag",
+        "_vegetarian_tag",
+        "_new_tag",
+        "_multi-portion_tag",
+        "_carb_smart_tag"
+      ]
+    },
+
+    "nutritional_values": {
+      "type": "object",
+      "properties": {
+
+        "calories": { "type": "number" },
+        "fat": { "type": "number" },
+        "saturated fat": { "type": "number" },
+        "carbohydrate": { "type": "number" },
+
+        "sugar": { "type": "number" },
+        "dietary fiber": { "type": "number" },
+        "protein": { "type": "number" },
+        "cholesterol": { "type": "number" },
+          "sodium": { "type": "number" }
+      },
+      "required": ["calories", "fat", "saturated fat", "carbohydrate", "sugar", "dietary fiber", "protein", "cholesterol", "sodium"]
+    },
+    "utensils": {
+
+      "type": "string",
+      "enum": [
+        "_baking_sheet",
+        "_large_pan",
+        "_pan",
+        "_zester",
+        "_peeler",
+        "_small_bowl",
+        "_plastic_bag",
+        "_medium_bowl",
+        "_paper_towel",
+        "_small_pot",
+        "_large_bowl",
+        "_strainer",
+        "_whisk",
+        "_large_pot",
+        "_medium_pot",
+        "_baking_dish",
+        "_plastic_wrap",
+        "_potato_masher",
+        "_meat_mallet"
+      ]
+    },
+
+    "category_list": {
+      "type": "string",
+      "enum": [
+        "_most_recent_category",
+        "_hall_of_fame_category",
+        "_kid_friendly_category",
+        "_quick_meals_for_busy_nights_category",
+        "_american_category",
+        "_italian_category",
+        "_asian_category",
+        "_mediterranean_category",
+        "_mexican_category",
+        "_korean_category",
+        "_indian_category",
+        "_latin_american_category",
+        "_chinese_category",
+        "_spanish_category",
+        "_japanese_category",
+        "_thai_category",
+        "_french_category",
+        "_african_category",
+        "_middle_eastern_category",
+        "_vietnamese_category",
+        "_taco_category",
+        "_burger_category",
+        "_pastas_category",
+        "_bowl_category",
+        "_flatbread_category",
+        "_stir-fry_category",
+        "_meatball_category",
+        "_risotto_category",
+        "_soup_category",
+        "_quesadilla_category",
+        "_steak_category",
+        "_meat_veggie_category",
+        "_veggie_category",
+        "_family_friendly_category",
+        "_fit_wholesome_category",
+        "_quick_easy_category",
+        "_pescatarian_category"
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "meals": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/meal"
+      }
+    }
+  }
+}

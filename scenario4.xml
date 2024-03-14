@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<result>
+  <command id="_command_1">
+    <user_ref idref="_user_1">
+      <user id="_user_1">
+        <user_address>
+          <user_address id="_user1_address">
+            <address_ref idref="_user1_address"/>
+          </user_address>
+        </user_address>
+      </user>
+    </user_ref>
+    <meal_ref_list>
+      <meal_ref idref="_65afe675a33a91ae6a3f7dd7">
+        <meal id="_65afe675a33a91ae6a3f7dd7" name="Pork Schnitzel" description="Coat pork in breadcrumbs and immediately become a mealtime MVP. Crispy pork is pretty much perfect in any form, but this isn&#x2019;t your run-of-the-mill schnitzel. To amp up flavor, we&#x2019;ve added lemon zest and garlic powder to our breadcrumb mixture, then drizzled the crispy pork chops with our new favorite condiment: creamy honey mustard sauce. Speaking of, we&#x2019;re serving up sides of roasted potatoes and carrots for extra dipping, but if you broke out the spoon to scrape up leftover sauce, we wouldn&#x2019;t judge.">
+          <headline>with Roasted Veggies &amp; a Creamy Mustard Sauce</headline>
+        </meal>
+      </meal_ref>
+      <meal_ref idref="_65b15441f8a95d5728992751">
+        <meal id="_65b15441f8a95d5728992751" name="Soy-Glazed Hoisin Meatloaves" description="In our opinion, a humble meatloaf is one of the most underrated dishes&#x2014;it&#x2019;s so comforting, but can also easily be dressed up with any spices and sauces we&#x2019;re craving. In this sweet, savory, and lightly spicy riff on the classic, we combine ground beef with scallions and hoisin sauce, shape it into loaves, then bake with a sweet soy glaze to browned, juicy perfection. The meatloaves are served with roasted scallion green beans, aromatic steamed jasmine rice, and spicy Sriracha mayo for drizzling. It&#x2019;s a weeknight-friendly dinner idea we meat-LOVE.">
+          <headline>plus Scallion Asparagus, Rice &amp; Sriracha Mayo</headline>
+        </meal>
+      </meal_ref>
+      <meal_ref idref="_65b1548ea33a91ae6a3f8df2">
+        <meal id="_65b1548ea33a91ae6a3f8df2" name="Shrimp Pasta Primavera" description="Craving a rich pasta dish but also a bounty of veggies? Thanks to this recipe, you don&#x2019;t have to choose between the two. Here, you&#x2019;ll find al dente penne pasta, green peas, and roasted bell pepper and zucchini, all tossed in a creamy, dreamy sauce that&#x2019;s brightened with lemon juice and made aromatic with Italian herbs. Each plate is showered with grated Parmesan for an im-pasta-bly delicious dinner.">
+          <headline>with Lemon Sauce, Bell Pepper, Zucchini &amp; Peas</headline>
+        </meal>
+      </meal_ref>
+      <meal_ref idref="_65afe37fa33a91ae6a3f7d86">
+        <meal id="_65afe37fa33a91ae6a3f7d86" name="Steak with Mushroom Cream Sauce" description="Our ranch steak is so rich and gloriously meaty flavored that it could be a stand-alone dish. Still, we&#x2019;re adding top-notch sides and a full-bodied sauce to this recipe so that it soars above and beyond. Crispy roasted potatoes and tender roasted carrots make it filling and hearty, while the creamy mushroom pan sauce spooned on top has savory complexity. Are you drooling yet? We&#x2019;re pretty confident this steak dinner will more than meat your expectations.">
+          <headline>plus Roasted Potatoes &amp; Carrots</headline>
+        </meal>
+      </meal_ref>
+    </meal_ref_list>
+    <serving_number>2</serving_number>
+    <total_price>
+      <money_amount value="96.92" currency="EUR"/>
+    </total_price>
+    <discount>20</discount>
+    <final_total>
+      <money_amount value="77.53" currency="EUR"/>
+    </final_total>
+    <delivery>
+      <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2024-03-03T14:20:59</date>
+      <status xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="delivered"/>
+      <address_ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" idref="_user1_address"/>
+    </delivery>
+    <command_date>2024-02-28T21:00:29</command_date>
+  </command>
+  <command id="_command_2">
+    <user_ref idref="_user_2">
+      <user id="_user_2">
+        <user_address>
+          <user_address id="_user2_address">
+            <address_ref idref="_user2_address"/>
+          </user_address>
+        </user_address>
+      </user>
+    </user_ref>
+    <meal_ref_list>
+      <meal_ref idref="_65afe325a33a91ae6a3f7d7a">
+        <meal id="_65afe325a33a91ae6a3f7d7a" name="Sweet &amp; Smoky Pork Filet" description="If you&#x2019;re craving something that&#x2019;s good and hearty, this recipe has got you covered. Pork filet is rubbed with cinnamon and smoked paprika, which brings a layer of warm aromatics to the meat. It&#x2019;s then roasted and drizzled in a cherry jam sauce that adds sweetness to all that savory. The mashed potatoes on the side stay creamy and classic, but there are also tender roasted carrots with a sprinkle of chili flakes for a pop of heat.">
+          <headline>with Chili Roasted Carrots, Mashed Potatoes &amp; Cherry Sauce</headline>
+        </meal>
+      </meal_ref>
+      <meal_ref idref="_65afe280f8a95d5728991b9b">
+        <meal id="_65afe280f8a95d5728991b9b" name="&#x2019;Shroom &#x2019;n&#x2019; Swiss Beef Burgers" description="Not to get cheesy, but we&#x2019;re head over heels for these bodacious burgers. Juicy beef patties are topped with an ultra-savory combo of Swiss cheese and saut&#xE9;ed mushrooms, then tucked into toasty buns. Served with a heap of crispy oven fries and honey Dijon sauce for dipping, well, everything!">
+          <headline>with Potato Wedges &amp; a Creamy Honey Dijon Dipper</headline>
+        </meal>
+      </meal_ref>
+      <meal_ref idref="_65b15441f8a95d5728992751">
+        <meal id="_65b15441f8a95d5728992751" name="Soy-Glazed Hoisin Meatloaves" description="In our opinion, a humble meatloaf is one of the most underrated dishes&#x2014;it&#x2019;s so comforting, but can also easily be dressed up with any spices and sauces we&#x2019;re craving. In this sweet, savory, and lightly spicy riff on the classic, we combine ground beef with scallions and hoisin sauce, shape it into loaves, then bake with a sweet soy glaze to browned, juicy perfection. The meatloaves are served with roasted scallion green beans, aromatic steamed jasmine rice, and spicy Sriracha mayo for drizzling. It&#x2019;s a weeknight-friendly dinner idea we meat-LOVE.">
+          <headline>plus Scallion Asparagus, Rice &amp; Sriracha Mayo</headline>
+        </meal>
+      </meal_ref>
+    </meal_ref_list>
+    <serving_number>4</serving_number>
+    <total_price>
+      <money_amount value="147.88" currency="EUR"/>
+    </total_price>
+    <discount/>
+    <final_total>
+      <money_amount value="147.88" currency="EUR"/>
+    </final_total>
+    <delivery>
+      <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2024-03-04T11:25:11</date>
+      <status xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="delivered"/>
+      <address_ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" idref="_user2_address"/>
+    </delivery>
+    <command_date>2024-02-28T15:20:15</command_date>
+  </command>
+  <command id="_command_3">
+    <user_ref idref="_user_1">
+      <user id="_user_1">
+        <user_address>
+          <user_address id="_user1_address">
+            <address_ref idref="_user1_address"/>
+          </user_address>
+        </user_address>
+      </user>
+    </user_ref>
+    <meal_ref_list>
+      <meal_ref idref="_65afe3ebf8a95d5728991bb5">
+        <meal id="_65afe3ebf8a95d5728991bb5" name="Crispy Chickpea Tabbouleh Bowls" description="We&#x2019;re big fans of the ubiquitous &#x201C;power bowl,&#x201D; but we have to admit: This one&#x2019;s extra special. It&#x2019;s a one-bowl Middle Eastern&#x2013;style feast that&#x2019;s positively bursting with flavor. The base is a lemony bulgur salad with cucumber, tomato, scallion whites, and dill. On top, there&#x2019;s crispy, harissa-spiced chickpeas, bell pepper, and a drizzle of creamy feta dressing. It doesn&#x2019;t get much better than this!">
+          <headline>Elevated Dinners, Impressively Easy</headline>
+        </meal>
+      </meal_ref>
+      <meal_ref idref="_65afe4dea33a91ae6a3f7dbd">
+        <meal id="_65afe4dea33a91ae6a3f7dbd" name="Ricotta Ravioli with Blistered Tomatoes &amp; Asparagus" description="We love ravioli for many reasons&#x2014;chiefly, its pillowy luxuriousness and how quickly it helps you get a hearty dinner on the table. These tomato-ricotta ravioli make a perfect base for a ton of other great flavors: juicy blistered tomatoes, saut&#xE9;ed asparagus, and caramelized shallots in a creamy basil sauce, with fresh spinach wilted right in. On the side is toasted ciabatta garlic bread for a crisp, extra-savory boost to this 15-minute meal that tastes like you were cooking it all day.">
+          <headline>Basil Cream Sauce &amp; Garlic Bread</headline>
+        </meal>
+      </meal_ref>
+      <meal_ref idref="_65afe601f8a95d5728991bf8">
+        <meal id="_65afe601f8a95d5728991bf8" name="Sweet Potato &amp; Pepper Quesadillas" description="This quesadilla is jam-packed with flavorful roasted sweet potato and green pepper, plus two types of gooey, melty cheese (how could we choose just one?!). Of course, we&#x2019;d never forget the toppings&#x2014;there&#x2019;s a fresh tomato salsa and dollops of spiced lime crema. Now for the fun part: piling on a little bit of everything to construct the perfect bite!">
+          <headline>with Southwest Crema &amp; Tomato Salsa</headline>
+        </meal>
+      </meal_ref>
+    </meal_ref_list>
+    <serving_number>2</serving_number>
+    <total_price>
+      <money_amount value="68.94" currency="EUR"/>
+    </total_price>
+    <discount>30</discount>
+    <final_total>
+      <money_amount value="48.25" currency="EUR"/>
+    </final_total>
+    <delivery>
+      <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2024-03-04T11:25:11</date>
+      <status xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="delivered"/>
+      <address_ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" idref="_user2_address"/>
+    </delivery>
+    <command_date>2024-02-28T12:21:50</command_date>
+  </command>
+</result>
