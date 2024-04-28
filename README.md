@@ -1,7 +1,7 @@
 # Database Mini-Project Report
 **Authors:**  
-BERDNYK Mariia  
-DUONG Thi Thanh Tu  
+- [**Mariia BERDNYK**](https://github.com/BadUkrainianWolf)
+- [**Thi Thanh Tu Duong**](https://github.com/luvluvdt3)
 
 https://github.com/luvluvdt3/HelloFresh_XML_Database_Project/assets/77581509/07aea569-9159-43f7-9033-827d93354816
 
